@@ -1,6 +1,4 @@
 ﻿#if (NETFRAMEWORK && NET40_OR_GREATER && !NET47_OR_GREATER) || (NETCOREAPP && !NETCOREAPP1_1_OR_GREATER) || (NETSTANDARD && !NETSTANDARD2_1_OR_GREATER)
-using System.ComponentModel;
-
 namespace Bluehill.Deconstructors;
 
 partial class Deconstructors {

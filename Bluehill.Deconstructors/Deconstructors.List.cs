@@ -1,6 +1,4 @@
-﻿using System.ComponentModel;
-
-namespace Bluehill.Deconstructors;
+﻿namespace Bluehill.Deconstructors;
 
 partial class Deconstructors {
     [EditorBrowsable(EditorBrowsableState.Never)]

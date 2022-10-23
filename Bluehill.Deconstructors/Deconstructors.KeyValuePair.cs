@@ -1,6 +1,4 @@
 ﻿#if NETFRAMEWORK || (NETCOREAPP && !NETCOREAPP2_0_OR_GREATER) || (NETSTANDARD && !NETSTANDARD2_1_OR_GREATER)
-using System.ComponentModel;
-
 namespace Bluehill.Deconstructors;
 
 partial class Deconstructors {
