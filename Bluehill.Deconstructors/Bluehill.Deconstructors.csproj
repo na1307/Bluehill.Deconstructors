@@ -1,6 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFrameworks>net2.0;net3.5-client;net4.0-client;net4.7;netstandard2.1</TargetFrameworks>
+    <TargetFrameworks>net2.0;net3.5-client;net4.0-client;net4.7;net5.0-windows;netstandard2.1</TargetFrameworks>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <WarningsAsErrors>Nullable</WarningsAsErrors>
@@ -10,8 +10,8 @@
     <Copyright>Copyright © na1307 2022</Copyright>
     <Description>Deconstructors for IList(Array, List, etc.) and Tuple and KeyValuePair.</Description>
     <AssemblyVersion>1</AssemblyVersion>
-    <FileVersion>1.0.1</FileVersion>
-    <Version>1.0.1</Version>
+    <FileVersion>1.1.0</FileVersion>
+    <Version>1.1-alpha.6</Version>
     <PackageProjectUrl>https://na1307.github.io/$(AssemblyName)</PackageProjectUrl>
     <PackageTags>deconstructor;deconstruct;na1307;bluehill</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
@@ -24,11 +24,17 @@
   <PropertyGroup Condition="'$(TargetFramework)' == 'net3.5-client' or '$(TargetFramework)' == 'net4.0-client'">
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(TargetFramework)' != 'netstandard2.1'">
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
   <ItemGroup>
     <Using Include="System.ComponentModel" />
     <Using Remove="System.Linq" />
     <Using Remove="System.Net.Http" />
     <Using Remove="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup Condition="'$(TargetFramework)' == 'net2.0'">
+    <Reference Include="System.Windows.Forms" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\README.md">
