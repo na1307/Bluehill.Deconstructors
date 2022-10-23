@@ -1,6 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFrameworks>net2.0;net3.5-client;net4.0-client;net4.7;net5.0-windows;netstandard2.1</TargetFrameworks>
+    <TargetFrameworks>net2.0;net3.0;net3.5-client;net4.0-client;net4.7;net5.0-windows;netstandard2.1</TargetFrameworks>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <WarningsAsErrors>Nullable</WarningsAsErrors>
@@ -11,7 +11,7 @@
     <Description>Deconstructors for IList(Array, List, etc.) and Tuple and KeyValuePair.</Description>
     <AssemblyVersion>1</AssemblyVersion>
     <FileVersion>1.1.0</FileVersion>
-    <Version>1.1-alpha.6</Version>
+    <Version>1.1-beta.1</Version>
     <PackageProjectUrl>https://na1307.github.io/$(AssemblyName)</PackageProjectUrl>
     <PackageTags>deconstructor;deconstruct;na1307;bluehill</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
@@ -26,6 +26,9 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(TargetFramework)' != 'netstandard2.1'">
     <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(TargetFramework)' != 'net2.0' and '$(TargetFramework)' != 'netstandard2.1'">
+    <UseWPF>true</UseWPF>
   </PropertyGroup>
   <ItemGroup>
     <Using Include="System.ComponentModel" />
