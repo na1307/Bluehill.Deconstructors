@@ -57,5 +57,11 @@ partial class Deconstructors {
         blue = color.B;
         alpha = color.A;
     }
+
+    [EditorBrowsable(EditorBrowsableState.Never)]
+    public static void Deconstruct(this TableLayoutPanelCellPosition tableLayoutPanelCellPosition, out int row, out int column) {
+        row = tableLayoutPanelCellPosition.Row;
+        column = tableLayoutPanelCellPosition.Column;
+    }
 }
 #endif
