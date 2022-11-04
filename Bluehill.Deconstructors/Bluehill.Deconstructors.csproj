@@ -11,7 +11,7 @@
     <Description>Deconstructors for IList(Array, List, etc.) and Tuple and KeyValuePair.</Description>
     <AssemblyVersion>1</AssemblyVersion>
     <FileVersion>1.1.0</FileVersion>
-    <Version>1.1-beta.2</Version>
+    <Version>1.1</Version>
     <PackageProjectUrl>https://na1307.github.io/$(AssemblyName)</PackageProjectUrl>
     <PackageTags>deconstructor;deconstruct;na1307;bluehill</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
@@ -38,6 +38,11 @@
   </ItemGroup>
   <ItemGroup Condition="'$(TargetFramework)' == 'net2.0'">
     <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <AssemblyAttribute Include="System.CLSCompliantAttribute">
+      <_Parameter1>true</_Parameter1>
+    </AssemblyAttribute>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\README.md">
