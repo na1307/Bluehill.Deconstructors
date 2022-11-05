@@ -1,3 +1,10 @@
+![GitHub](https://img.shields.io/github/license/na1307/Bluehill.Deconstructors?style=flat-square)
+[![GitHub issues](https://img.shields.io/github/issues-raw/na1307/Bluehill.Deconstructors?style=flat-square)](https://github.com/na1307/Bluehill.Deconstructors/issues)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr-raw/na1307/Bluehill.Deconstructors?style=flat-square)](https://github.com/na1307/Bluehill.Deconstructors/pulls)
+[![Nuget](https://img.shields.io/nuget/v/Bluehill.Deconstructors?logo=nuget&style=flat-square)](https://www.nuget.org/packages/Bluehill.Deconstructors)
+[![Nuget (with prereleases)](https://img.shields.io/nuget/vpre/Bluehill.Deconstructors?color=616&label=preview&logo=nuget&style=flat-square)](https://www.nuget.org/packages/Bluehill.Deconstructors)
+[![Nuget](https://img.shields.io/nuget/dt/Bluehill.Deconstructors?style=flat-square)](https://www.nuget.org/packages/Bluehill.Deconstructors)
+
 A collection of extension methods for deconstruction syntax in C#.
 
 ```csharp
