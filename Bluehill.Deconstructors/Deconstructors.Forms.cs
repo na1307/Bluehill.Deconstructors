@@ -1,4 +1,4 @@
-﻿#if !NETSTANDARD
+﻿#if WINFORMS
 namespace Bluehill.Deconstructors;
 
 partial class Deconstructors {

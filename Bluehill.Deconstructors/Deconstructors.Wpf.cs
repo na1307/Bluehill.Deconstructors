@@ -1,4 +1,4 @@
-﻿#if !NET20 && !NETSTANDARD
+﻿#if WPF
 using System.Windows;
 
 namespace Bluehill.Deconstructors;
