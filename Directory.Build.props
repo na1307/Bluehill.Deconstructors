@@ -15,7 +15,7 @@
     <RepositoryUrl>https://github.com/na1307/Bluehill.Deconstructors</RepositoryUrl>
     <AssemblyVersion>2</AssemblyVersion>
     <FileVersion>2.0.0</FileVersion>
-    <Version>2.0-alpha.5</Version>
+    <Version>2.0-alpha.6</Version>
     <EnforceCodeStyleInBuild>True</EnforceCodeStyleInBuild>
     <EnableNETAnalyzers>True</EnableNETAnalyzers>
     <AnalysisLevel>latest</AnalysisLevel>

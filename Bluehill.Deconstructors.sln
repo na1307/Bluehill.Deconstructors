@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bluehill.Deconstructors", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bluehill.Deconstructors.KeyValuePair", "Bluehill.Deconstructors.KeyValuePair\Bluehill.Deconstructors.KeyValuePair.csproj", "{6954A641-3338-41D1-8757-B5E031E7A5E9}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bluehill.Deconstructors.Tuple", "Bluehill.Deconstructors.Tuple\Bluehill.Deconstructors.Tuple.csproj", "{159DCB1F-43DC-4E26-A2FD-767B45ABC195}"
+EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "솔루션 항목", "솔루션 항목", "{CF78EF3F-0E13-42AB-AC5E-A37348922024}"
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
@@ -30,6 +32,10 @@ Global
 		{6954A641-3338-41D1-8757-B5E031E7A5E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6954A641-3338-41D1-8757-B5E031E7A5E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6954A641-3338-41D1-8757-B5E031E7A5E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{159DCB1F-43DC-4E26-A2FD-767B45ABC195}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{159DCB1F-43DC-4E26-A2FD-767B45ABC195}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{159DCB1F-43DC-4E26-A2FD-767B45ABC195}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{159DCB1F-43DC-4E26-A2FD-767B45ABC195}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

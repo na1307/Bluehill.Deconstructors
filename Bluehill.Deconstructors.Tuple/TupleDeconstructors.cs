@@ -1,7 +1,7 @@
 ﻿#if (NETFRAMEWORK && NET40_OR_GREATER && !NET47_OR_GREATER) || (NETCOREAPP && !NETCOREAPP1_1_OR_GREATER && !NETCOREAPP3_0_OR_GREATER) || (NETSTANDARD && !NETSTANDARD2_1_OR_GREATER)
 namespace Bluehill.Deconstructors;
 
-partial class Deconstructors {
+public static class TupleDeconstructors {
     public static void Deconstruct<T1>(this Tuple<T1> value, out T1 item1) {
         item1 = value.Item1;
     }
