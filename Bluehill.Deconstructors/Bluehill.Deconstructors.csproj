@@ -12,7 +12,7 @@
     <Description>Deconstructors for IList(Array, List, etc.) and Tuple and KeyValuePair and more.</Description>
     <AssemblyVersion>2</AssemblyVersion>
     <FileVersion>2.0.0</FileVersion>
-    <Version>2.0-alpha.2</Version>
+    <Version>2.0-alpha.3</Version>
     <PackageProjectUrl>https://na1307.github.io/$(AssemblyName)</PackageProjectUrl>
     <PackageTags>deconstructor;deconstruct;na1307;bluehill</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
@@ -34,7 +34,6 @@
     <DefineConstants>$(DefineConstants);WPF</DefineConstants>
   </PropertyGroup>
   <ItemGroup>
-    <Using Include="System.ComponentModel" />
     <Using Remove="System.Linq" />
     <Using Remove="System.Net.Http" />
     <Using Remove="System.Threading.Tasks" />
