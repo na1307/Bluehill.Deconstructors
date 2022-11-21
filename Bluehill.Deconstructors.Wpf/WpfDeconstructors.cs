@@ -1,15 +1,12 @@
-﻿#if WPF
-using System.Windows;
+﻿namespace Bluehill.Deconstructors;
 
-namespace Bluehill.Deconstructors;
-
-partial class Deconstructors {
-    public static void Deconstruct(this System.Windows.Point point, out double x, out double y) {
+public static class WpfDeconstructors {
+    public static void Deconstruct(this Point point, out double x, out double y) {
         x = point.X;
         y = point.Y;
     }
 
-    public static void Deconstruct(this System.Windows.Size size, out double width, out double height) {
+    public static void Deconstruct(this Size size, out double width, out double height) {
         width = size.Width;
         height = size.Height;
     }
@@ -35,11 +32,10 @@ partial class Deconstructors {
         bottomRight = cornerRadius.BottomRight;
     }
 
-    public static void Deconstruct(this System.Windows.Media.Color color, out byte red, out byte green, out byte blue, out byte alpha) {
+    public static void Deconstruct(this Color color, out byte red, out byte green, out byte blue, out byte alpha) {
         red = color.R;
         green = color.G;
         blue = color.B;
         alpha = color.A;
     }
 }
-#endif

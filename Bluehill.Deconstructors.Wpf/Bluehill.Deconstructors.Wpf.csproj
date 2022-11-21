@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <TargetFrameworks>net3.0;net3.5;net4.0-client;netcoreapp3.0</TargetFrameworks>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Description>Deconstructors for WPF types.</Description>
+    <PackageTags>$(PackageTags);wpf</PackageTags>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+  <ItemGroup>
+    <Using Include="System.Windows" />
+    <Using Include="System.Windows.Media" />
+    <Using Remove="System.Linq" />
+    <Using Remove="System.Net.Http" />
+    <Using Remove="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <AssemblyAttribute Include="System.CLSCompliantAttribute">
+      <_Parameter1>true</_Parameter1>
+    </AssemblyAttribute>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+</Project>
