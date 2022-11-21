@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>net2.0;net3.5;net4.0-client;netstandard2.1</TargetFrameworks>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Description>Deconstructors for KeyValuePair.</Description>
+    <PackageTags>$(PackageTags);keyvaluepair;dictionary;dictionaryentry</PackageTags>
+  </PropertyGroup>
+  <ItemGroup>
+    <Using Remove="System.Linq" />
+    <Using Remove="System.Net.Http" />
+    <Using Remove="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup Condition="'$(TargetFramework)' != 'netstandard2.1'">
+    <AssemblyAttribute Include="System.CLSCompliantAttribute">
+      <_Parameter1>true</_Parameter1>
+    </AssemblyAttribute>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+</Project>

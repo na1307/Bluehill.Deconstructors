@@ -5,6 +5,8 @@ VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bluehill.Deconstructors", "Bluehill.Deconstructors\Bluehill.Deconstructors.csproj", "{EBD9A028-E5A5-4633-8368-A5E7DC9215B2}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bluehill.Deconstructors.KeyValuePair", "Bluehill.Deconstructors.KeyValuePair\Bluehill.Deconstructors.KeyValuePair.csproj", "{6954A641-3338-41D1-8757-B5E031E7A5E9}"
+EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "솔루션 항목", "솔루션 항목", "{CF78EF3F-0E13-42AB-AC5E-A37348922024}"
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
@@ -24,6 +26,10 @@ Global
 		{EBD9A028-E5A5-4633-8368-A5E7DC9215B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EBD9A028-E5A5-4633-8368-A5E7DC9215B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EBD9A028-E5A5-4633-8368-A5E7DC9215B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6954A641-3338-41D1-8757-B5E031E7A5E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6954A641-3338-41D1-8757-B5E031E7A5E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6954A641-3338-41D1-8757-B5E031E7A5E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6954A641-3338-41D1-8757-B5E031E7A5E9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
