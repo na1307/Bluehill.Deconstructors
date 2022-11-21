@@ -1,29 +1,8 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFrameworks>net2.0;net3.0;net3.5;net4.0-client;net4.7;net5.0-windows;netstandard2.1;net7.0;net7.0-windows</TargetFrameworks>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-    <WarningsAsErrors>Nullable</WarningsAsErrors>
-    <LangVersion>latest</LangVersion>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <Authors>na1307</Authors>
-    <Company>Bluehill</Company>
-    <Copyright>Copyright © Bluehill 2022</Copyright>
     <Description>Deconstructors for IList(Array, List, etc.) and Tuple and KeyValuePair and more.</Description>
-    <AssemblyVersion>2</AssemblyVersion>
-    <FileVersion>2.0.0</FileVersion>
-    <Version>2.0-alpha.3</Version>
-    <PackageProjectUrl>https://na1307.github.io/$(AssemblyName)</PackageProjectUrl>
-    <PackageTags>deconstructor;deconstruct;na1307;bluehill</PackageTags>
-    <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageReadmeFile>README.md</PackageReadmeFile>
-    <RepositoryUrl>https://github.com/na1307/$(AssemblyName)</RepositoryUrl>
-    <EnforceCodeStyleInBuild>True</EnforceCodeStyleInBuild>
-    <EnableNETAnalyzers>True</EnableNETAnalyzers>
-    <AnalysisLevel>latest</AnalysisLevel>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(TargetFramework)' == 'net3.5-client' or '$(TargetFramework)' == 'net4.0-client'">
-    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
   </PropertyGroup>
   <PropertyGroup Condition="'$(TargetFramework)' != 'netstandard2.1' and '$(TargetFramework)' != 'net7.0'">
     <UseWindowsForms>true</UseWindowsForms>
