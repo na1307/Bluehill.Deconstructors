@@ -1,7 +1,6 @@
-﻿#if WINFORMS
-namespace Bluehill.Deconstructors;
+﻿namespace Bluehill.Deconstructors;
 
-partial class Deconstructors {
+public static class FormsDeconstructors {
     public static void Deconstruct(this Point point, out int x, out int y) {
         x = point.X;
         y = point.Y;
@@ -55,4 +54,3 @@ partial class Deconstructors {
         column = tableLayoutPanelCellPosition.Column;
     }
 }
-#endif
