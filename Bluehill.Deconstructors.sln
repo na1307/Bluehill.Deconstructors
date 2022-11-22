@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bluehill.Deconstructors", "Bluehill.Deconstructors\Bluehill.Deconstructors.csproj", "{9659D868-31FA-4990-B818-08AD601BDB5B}"
+EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bluehill.Deconstructors.List", "Bluehill.Deconstructors.List\Bluehill.Deconstructors.List.csproj", "{60197DEA-D3C4-42E9-888D-FF1FCD247CBB}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bluehill.Deconstructors.KeyValuePair", "Bluehill.Deconstructors.KeyValuePair\Bluehill.Deconstructors.KeyValuePair.csproj", "{6954A641-3338-41D1-8757-B5E031E7A5E9}"
@@ -32,6 +34,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9659D868-31FA-4990-B818-08AD601BDB5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9659D868-31FA-4990-B818-08AD601BDB5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9659D868-31FA-4990-B818-08AD601BDB5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9659D868-31FA-4990-B818-08AD601BDB5B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{60197DEA-D3C4-42E9-888D-FF1FCD247CBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{60197DEA-D3C4-42E9-888D-FF1FCD247CBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{60197DEA-D3C4-42E9-888D-FF1FCD247CBB}.Release|Any CPU.ActiveCfg = Release|Any CPU

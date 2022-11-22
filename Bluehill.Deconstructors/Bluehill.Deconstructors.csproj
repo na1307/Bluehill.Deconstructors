@@ -1,0 +1,54 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>net2.0;net3.5;net4.0-client;net4.7;netstandard2.1;net5.0-windows</TargetFrameworks>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <IncludeBuildOutput>false</IncludeBuildOutput>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Description>Deconstructors for IList(Array, List, etc.) and Tuple and KeyValuePair and more.</Description>
+  </PropertyGroup>
+  <ItemGroup Condition="'$(TargetFramework)' == 'net2.0'">
+    <ProjectReference Include="..\Bluehill.Deconstructors.List\Bluehill.Deconstructors.List.csproj" />
+    <ProjectReference Include="..\Bluehill.Deconstructors.KeyValuePair\Bluehill.Deconstructors.KeyValuePair.csproj" />
+    <ProjectReference Include="..\Bluehill.Deconstructors.Drawing\Bluehill.Deconstructors.Drawing.csproj" />
+    <ProjectReference Include="..\Bluehill.Deconstructors.Forms\Bluehill.Deconstructors.Forms.csproj" />
+  </ItemGroup>
+  <ItemGroup Condition="'$(TargetFramework)' == 'net3.5'">
+    <ProjectReference Include="..\Bluehill.Deconstructors.List\Bluehill.Deconstructors.List.csproj" />
+    <ProjectReference Include="..\Bluehill.Deconstructors.KeyValuePair\Bluehill.Deconstructors.KeyValuePair.csproj" />
+    <ProjectReference Include="..\Bluehill.Deconstructors.Drawing\Bluehill.Deconstructors.Drawing.csproj" />
+    <ProjectReference Include="..\Bluehill.Deconstructors.Forms\Bluehill.Deconstructors.Forms.csproj" />
+    <ProjectReference Include="..\Bluehill.Deconstructors.Wpf\Bluehill.Deconstructors.Wpf.csproj" />
+  </ItemGroup>
+  <ItemGroup Condition="'$(TargetFramework)' == 'net4.0-client'">
+    <ProjectReference Include="..\Bluehill.Deconstructors.List\Bluehill.Deconstructors.List.csproj" />
+    <ProjectReference Include="..\Bluehill.Deconstructors.KeyValuePair\Bluehill.Deconstructors.KeyValuePair.csproj" />
+    <ProjectReference Include="..\Bluehill.Deconstructors.Tuple\Bluehill.Deconstructors.Tuple.csproj" />
+    <ProjectReference Include="..\Bluehill.Deconstructors.Drawing\Bluehill.Deconstructors.Drawing.csproj" />
+    <ProjectReference Include="..\Bluehill.Deconstructors.Forms\Bluehill.Deconstructors.Forms.csproj" />
+    <ProjectReference Include="..\Bluehill.Deconstructors.Wpf\Bluehill.Deconstructors.Wpf.csproj" />
+  </ItemGroup>
+  <ItemGroup Condition="'$(TargetFramework)' == 'net4.7'">
+    <ProjectReference Include="..\Bluehill.Deconstructors.List\Bluehill.Deconstructors.List.csproj" />
+    <ProjectReference Include="..\Bluehill.Deconstructors.KeyValuePair\Bluehill.Deconstructors.KeyValuePair.csproj" />
+    <ProjectReference Include="..\Bluehill.Deconstructors.Drawing\Bluehill.Deconstructors.Drawing.csproj" />
+    <ProjectReference Include="..\Bluehill.Deconstructors.Forms\Bluehill.Deconstructors.Forms.csproj" />
+    <ProjectReference Include="..\Bluehill.Deconstructors.Wpf\Bluehill.Deconstructors.Wpf.csproj" />
+  </ItemGroup>
+  <ItemGroup Condition="'$(TargetFramework)' == 'netstandard2.1'">
+    <ProjectReference Include="..\Bluehill.Deconstructors.List\Bluehill.Deconstructors.List.csproj" />
+    <ProjectReference Include="..\Bluehill.Deconstructors.Drawing\Bluehill.Deconstructors.Drawing.csproj" />
+  </ItemGroup>
+  <ItemGroup Condition="'$(TargetFramework)' == 'net5.0-windows'">
+    <ProjectReference Include="..\Bluehill.Deconstructors.List\Bluehill.Deconstructors.List.csproj" />
+    <ProjectReference Include="..\Bluehill.Deconstructors.Drawing\Bluehill.Deconstructors.Drawing.csproj" />
+    <ProjectReference Include="..\Bluehill.Deconstructors.Forms\Bluehill.Deconstructors.Forms.csproj" />
+    <ProjectReference Include="..\Bluehill.Deconstructors.Wpf\Bluehill.Deconstructors.Wpf.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="README.md" />
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+</Project>

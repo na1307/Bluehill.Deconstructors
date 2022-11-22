@@ -1,2 +1,2 @@
 # Bluehill.Deconstructors
-Deconstructors for IList(Array, List, etc.) and Tuple and KeyValuePair.
+Deconstructors for IList(Array, List, etc.) and Tuple and KeyValuePair and more.
