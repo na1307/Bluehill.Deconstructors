@@ -1,6 +1,6 @@
 ﻿namespace Bluehill.Deconstructors;
 
-partial class Deconstructors {
+public static class ListDeconstructors {
     public static void Deconstruct<T>(this IList<T> list, out T item1) {
         item1 = list[0];
     }

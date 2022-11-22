@@ -8,8 +8,8 @@ public static class FormsDeconstructors {
         bottom = padding.Bottom;
     }
 
-    public static void Deconstruct(this TableLayoutPanelCellPosition tableLayoutPanelCellPosition, out int row, out int column) {
-        row = tableLayoutPanelCellPosition.Row;
-        column = tableLayoutPanelCellPosition.Column;
+    public static void Deconstruct(this TableLayoutPanelCellPosition position, out int row, out int column) {
+        row = position.Row;
+        column = position.Column;
     }
 }

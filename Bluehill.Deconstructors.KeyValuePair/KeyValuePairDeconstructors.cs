@@ -2,14 +2,14 @@
 namespace Bluehill.Deconstructors;
 
 public static class KeyValuePairDeconstructors {
-    public static void Deconstruct<TKey, TValue>(this KeyValuePair<TKey, TValue> keyValuePair, out TKey key, out TValue value) {
-        key = keyValuePair.Key;
-        value = keyValuePair.Value;
+    public static void Deconstruct<TKey, TValue>(this KeyValuePair<TKey, TValue> source, out TKey key, out TValue value) {
+        key = source.Key;
+        value = source.Value;
     }
 
-    public static void Deconstruct(this System.Collections.DictionaryEntry dictionaryEntry, out object key, out object? value) {
-        key = dictionaryEntry.Key;
-        value = dictionaryEntry.Value;
+    public static void Deconstruct(this System.Collections.DictionaryEntry source, out object key, out object? value) {
+        key = source.Key;
+        value = source.Value;
     }
 }
 #endif
