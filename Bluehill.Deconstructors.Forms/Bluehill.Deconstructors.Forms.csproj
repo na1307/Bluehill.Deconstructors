@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
   <PropertyGroup>
-    <TargetFrameworks>net2.0;net3.5;net4.0-client;netcoreapp3.0</TargetFrameworks>
+    <TargetFrameworks>net2.0;net3.5;net4.0-client;net5.0-windows</TargetFrameworks>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Description>Deconstructors for Windows Forms types.</Description>
     <PackageTags>$(PackageTags);winforms;forms</PackageTags>
@@ -10,9 +10,6 @@
     <Using Remove="System.Linq" />
     <Using Remove="System.Net.Http" />
     <Using Remove="System.Threading.Tasks" />
-  </ItemGroup>
-  <ItemGroup Condition="'$(TargetFramework)' == 'net2.0'">
-    <Reference Include="System.Windows.Forms" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Bluehill.Deconstructors.Drawing\Bluehill.Deconstructors.Drawing.csproj" />
@@ -28,4 +25,5 @@
       <PackagePath>\</PackagePath>
     </None>
   </ItemGroup>
+  <Import Project="..\ExtensionAttribute\ExtensionAttribute.projitems" Label="Shared" />
 </Project>

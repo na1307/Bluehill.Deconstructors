@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
   <PropertyGroup>
-    <TargetFrameworks>net3.0;net3.5;net4.0-client;netcoreapp3.0</TargetFrameworks>
+    <TargetFrameworks>net3.5;net4.0-client;net5.0-windows</TargetFrameworks>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Description>Deconstructors for WPF types.</Description>
     <PackageTags>$(PackageTags);wpf</PackageTags>
@@ -24,4 +24,5 @@
       <PackagePath>\</PackagePath>
     </None>
   </ItemGroup>
+  <Import Project="..\ExtensionAttribute\ExtensionAttribute.projitems" Label="Shared" />
 </Project>

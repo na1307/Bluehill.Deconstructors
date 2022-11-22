@@ -24,6 +24,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "솔루션 항목", "솔루�
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "ExtensionAttribute", "ExtensionAttribute\ExtensionAttribute.shproj", "{149D1E4E-9431-430F-BAB3-D7FDECF2A6BE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -60,5 +62,14 @@ Global
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DC0B4236-25F2-4CA8-B230-FD6F7D936D83}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		ExtensionAttribute\ExtensionAttribute.projitems*{149d1e4e-9431-430f-bab3-d7fdecf2a6be}*SharedItemsImports = 13
+		ExtensionAttribute\ExtensionAttribute.projitems*{159dcb1f-43dc-4e26-a2fd-767b45abc195}*SharedItemsImports = 5
+		ExtensionAttribute\ExtensionAttribute.projitems*{60197dea-d3c4-42e9-888d-ff1fcd247cbb}*SharedItemsImports = 5
+		ExtensionAttribute\ExtensionAttribute.projitems*{6954a641-3338-41d1-8757-b5e031e7a5e9}*SharedItemsImports = 5
+		ExtensionAttribute\ExtensionAttribute.projitems*{995a86e2-648f-4900-89da-ba4f08261aaa}*SharedItemsImports = 5
+		ExtensionAttribute\ExtensionAttribute.projitems*{e52046b9-10ab-483d-b535-4573af9551b1}*SharedItemsImports = 5
+		ExtensionAttribute\ExtensionAttribute.projitems*{f8d954c3-8954-4d3b-845b-f294628d8489}*SharedItemsImports = 5
 	EndGlobalSection
 EndGlobal

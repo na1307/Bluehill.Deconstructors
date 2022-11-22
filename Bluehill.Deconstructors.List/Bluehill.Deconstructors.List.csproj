@@ -21,4 +21,5 @@
       <PackagePath>\</PackagePath>
     </None>
   </ItemGroup>
+  <Import Project="..\ExtensionAttribute\ExtensionAttribute.projitems" Label="Shared" />
 </Project>

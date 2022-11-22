@@ -8,7 +8,7 @@
   <ItemGroup>
     <Using Remove="System.Net.Http" />
   </ItemGroup>
-  <ItemGroup Condition="'$(TargetFramework)' != 'net4.7'">
+  <ItemGroup>
     <AssemblyAttribute Include="System.CLSCompliantAttribute">
       <_Parameter1>true</_Parameter1>
     </AssemblyAttribute>
@@ -19,4 +19,5 @@
       <PackagePath>\</PackagePath>
     </None>
   </ItemGroup>
+  <Import Project="..\ExtensionAttribute\ExtensionAttribute.projitems" Label="Shared" />
 </Project>
