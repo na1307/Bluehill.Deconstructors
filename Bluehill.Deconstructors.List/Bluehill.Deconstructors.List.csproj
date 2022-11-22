@@ -4,6 +4,8 @@
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Description>Deconstructors for IList(Array, List, etc.).</Description>
     <PackageTags>$(PackageTags);ilist</PackageTags>
+    <SignAssembly>True</SignAssembly>
+    <AssemblyOriginatorKeyFile>..\bluehill.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
     <Using Remove="System.Linq" />

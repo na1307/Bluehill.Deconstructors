@@ -4,6 +4,8 @@
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Description>Deconstructors for Drawing types.</Description>
     <PackageTags>$(PackageTags);drawing</PackageTags>
+    <SignAssembly>True</SignAssembly>
+    <AssemblyOriginatorKeyFile>..\bluehill.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
     <Using Include="System.Drawing" />

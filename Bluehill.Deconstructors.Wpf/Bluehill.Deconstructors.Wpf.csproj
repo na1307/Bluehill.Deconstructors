@@ -5,6 +5,8 @@
     <Description>Deconstructors for WPF types.</Description>
     <PackageTags>$(PackageTags);wpf</PackageTags>
     <UseWPF>true</UseWPF>
+    <SignAssembly>True</SignAssembly>
+    <AssemblyOriginatorKeyFile>..\bluehill.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
     <Using Include="System.Windows" />

@@ -4,6 +4,8 @@
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Description>Deconstructors for KeyValuePair.</Description>
     <PackageTags>$(PackageTags);keyvaluepair;dictionary;dictionaryentry</PackageTags>
+    <SignAssembly>True</SignAssembly>
+    <AssemblyOriginatorKeyFile>..\bluehill.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
     <Using Remove="System.Linq" />

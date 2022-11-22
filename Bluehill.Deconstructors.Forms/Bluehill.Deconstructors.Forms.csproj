@@ -5,6 +5,8 @@
     <Description>Deconstructors for Windows Forms types.</Description>
     <PackageTags>$(PackageTags);winforms;forms</PackageTags>
     <UseWindowsForms>true</UseWindowsForms>
+    <SignAssembly>True</SignAssembly>
+    <AssemblyOriginatorKeyFile>..\bluehill.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
     <Using Remove="System.Linq" />
