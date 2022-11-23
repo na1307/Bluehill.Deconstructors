@@ -6,6 +6,7 @@
     <PackageTags>$(PackageTags);tuple</PackageTags>
     <SignAssembly>True</SignAssembly>
     <AssemblyOriginatorKeyFile>..\bluehill.snk</AssemblyOriginatorKeyFile>
+    <CodeAnalysisRuleSet>..\.sonarlint\na1307_bluehill.deconstructorscsharp.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <ItemGroup>
     <Using Remove="System.Net.Http" />
@@ -14,6 +15,9 @@
     <AssemblyAttribute Include="System.CLSCompliantAttribute">
       <_Parameter1>true</_Parameter1>
     </AssemblyAttribute>
+  </ItemGroup>
+  <ItemGroup>
+    <AdditionalFiles Include="..\.sonarlint\na1307_bluehill.deconstructors\CSharp\SonarLint.xml" Link="SonarLint.xml" />
   </ItemGroup>
   <ItemGroup>
     <None Include="README.md">

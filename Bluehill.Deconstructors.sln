@@ -22,6 +22,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "솔루션 항목", "솔루�
 		.editorconfig = .editorconfig
 		.gitattributes = .gitattributes
 		.gitignore = .gitignore
+		Bluehill.Deconstructors.vsext = Bluehill.Deconstructors.vsext
 		Directory.Build.props = Directory.Build.props
 		Directory.Build.targets = Directory.Build.targets
 		Directory.Packages.props = Directory.Packages.props
@@ -32,7 +33,11 @@ Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "ExtensionAttribute", "Exten
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bluehill.Deconstructors.List.Test", "Bluehill.Deconstructors.List.Test\Bluehill.Deconstructors.List.Test.csproj", "{2E6E7B04-F991-4626-8C47-FEEB8E9E84A8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bluehill.Deconstructors.Drawing.Test", "Bluehill.Deconstructors.Drawing.Test\Bluehill.Deconstructors.Drawing.Test.csproj", "{8D7F7185-9E3C-49C9-AA8A-BDF4765EF28F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bluehill.Deconstructors.Drawing.Test", "Bluehill.Deconstructors.Drawing.Test\Bluehill.Deconstructors.Drawing.Test.csproj", "{8D7F7185-9E3C-49C9-AA8A-BDF4765EF28F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bluehill.Deconstructors.Forms.Test", "Bluehill.Deconstructors.Forms.Test\Bluehill.Deconstructors.Forms.Test.csproj", "{40C0838E-9BE4-4CAE-8500-A95F18E1A707}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bluehill.Deconstructors.Wpf.Test", "Bluehill.Deconstructors.Wpf.Test\Bluehill.Deconstructors.Wpf.Test.csproj", "{19CD5A07-CF79-40CE-9E45-57321399E843}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -76,6 +81,14 @@ Global
 		{8D7F7185-9E3C-49C9-AA8A-BDF4765EF28F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D7F7185-9E3C-49C9-AA8A-BDF4765EF28F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D7F7185-9E3C-49C9-AA8A-BDF4765EF28F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40C0838E-9BE4-4CAE-8500-A95F18E1A707}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40C0838E-9BE4-4CAE-8500-A95F18E1A707}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40C0838E-9BE4-4CAE-8500-A95F18E1A707}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40C0838E-9BE4-4CAE-8500-A95F18E1A707}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19CD5A07-CF79-40CE-9E45-57321399E843}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19CD5A07-CF79-40CE-9E45-57321399E843}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19CD5A07-CF79-40CE-9E45-57321399E843}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19CD5A07-CF79-40CE-9E45-57321399E843}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
