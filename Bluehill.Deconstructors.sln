@@ -39,6 +39,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bluehill.Deconstructors.For
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bluehill.Deconstructors.Wpf.Test", "Bluehill.Deconstructors.Wpf.Test\Bluehill.Deconstructors.Wpf.Test.csproj", "{19CD5A07-CF79-40CE-9E45-57321399E843}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bluehill.Deconstructors.KeyValuePair.Test", "Bluehill.Deconstructors.KeyValuePair.Test\Bluehill.Deconstructors.KeyValuePair.Test.csproj", "{2DACB48B-2F98-45E6-85BB-2421216AE133}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bluehill.Deconstructors.Tuple.Test", "Bluehill.Deconstructors.Tuple.Test\Bluehill.Deconstructors.Tuple.Test.csproj", "{143572EA-8104-4C2A-82DA-B9365DE609BF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -89,6 +93,14 @@ Global
 		{19CD5A07-CF79-40CE-9E45-57321399E843}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{19CD5A07-CF79-40CE-9E45-57321399E843}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{19CD5A07-CF79-40CE-9E45-57321399E843}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DACB48B-2F98-45E6-85BB-2421216AE133}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DACB48B-2F98-45E6-85BB-2421216AE133}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DACB48B-2F98-45E6-85BB-2421216AE133}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DACB48B-2F98-45E6-85BB-2421216AE133}.Release|Any CPU.Build.0 = Release|Any CPU
+		{143572EA-8104-4C2A-82DA-B9365DE609BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{143572EA-8104-4C2A-82DA-B9365DE609BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{143572EA-8104-4C2A-82DA-B9365DE609BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{143572EA-8104-4C2A-82DA-B9365DE609BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

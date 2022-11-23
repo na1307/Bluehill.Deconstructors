@@ -1,5 +1,4 @@
-﻿#if NETFRAMEWORK || (NETCOREAPP && !NETCOREAPP2_0_OR_GREATER && !NETCOREAPP3_0_OR_GREATER) || (NETSTANDARD && !NETSTANDARD2_1_OR_GREATER)
-namespace Bluehill.Deconstructors;
+﻿namespace Bluehill.Deconstructors;
 
 [EditorBrowsable(EditorBrowsableState.Never)]
 public static class KeyValuePairDeconstructors {
@@ -15,4 +14,3 @@ public static class KeyValuePairDeconstructors {
         value = source.Value;
     }
 }
-#endif

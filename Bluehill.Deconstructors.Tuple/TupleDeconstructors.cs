@@ -1,5 +1,4 @@
-﻿#if (NETFRAMEWORK && NET40_OR_GREATER && !NET47_OR_GREATER) || (NETCOREAPP && !NETCOREAPP1_1_OR_GREATER && !NETCOREAPP3_0_OR_GREATER) || (NETSTANDARD && !NETSTANDARD2_1_OR_GREATER)
-namespace Bluehill.Deconstructors;
+﻿namespace Bluehill.Deconstructors;
 
 [EditorBrowsable(EditorBrowsableState.Never)]
 public static class TupleDeconstructors {
@@ -318,4 +317,3 @@ public static class TupleDeconstructors {
         item21 = value.Rest.Rest.Item7;
     }
 }
-#endif
