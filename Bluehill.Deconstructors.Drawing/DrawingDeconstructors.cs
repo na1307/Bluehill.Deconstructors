@@ -43,10 +43,10 @@ public static class DrawingDeconstructors {
     }
 
     [EditorBrowsable(EditorBrowsableState.Never)]
-    public static void Deconstruct(this Color color, out byte red, out byte green, out byte blue, out byte alpha) {
+    public static void Deconstruct(this Color color, out byte alpha, out byte red, out byte green, out byte blue) {
+        alpha = color.A;
         red = color.R;
         green = color.G;
         blue = color.B;
-        alpha = color.A;
     }
 }
