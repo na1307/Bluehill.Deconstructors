@@ -31,11 +31,11 @@ public static class WpfDeconstructors {
     }
 
     [EditorBrowsable(EditorBrowsableState.Never)]
-    public static void Deconstruct(this CornerRadius cornerRadius, out double topLeft, out double bottomLeft, out double topRight, out double bottomRight) {
+    public static void Deconstruct(this CornerRadius cornerRadius, out double topLeft, out double topRight, out double bottomRight, out double bottomLeft) {
         topLeft = cornerRadius.TopLeft;
-        bottomLeft = cornerRadius.BottomLeft;
         topRight = cornerRadius.TopRight;
         bottomRight = cornerRadius.BottomRight;
+        bottomLeft = cornerRadius.BottomLeft;
     }
 
     [EditorBrowsable(EditorBrowsableState.Never)]

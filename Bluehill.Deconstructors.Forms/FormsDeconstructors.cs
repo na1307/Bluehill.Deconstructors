@@ -11,8 +11,8 @@ public static class FormsDeconstructors {
     }
 
     [EditorBrowsable(EditorBrowsableState.Never)]
-    public static void Deconstruct(this TableLayoutPanelCellPosition position, out int row, out int column) {
-        row = position.Row;
+    public static void Deconstruct(this TableLayoutPanelCellPosition position, out int column, out int row) {
         column = position.Column;
+        row = position.Row;
     }
 }
