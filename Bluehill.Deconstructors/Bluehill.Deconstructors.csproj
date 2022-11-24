@@ -4,7 +4,7 @@
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <IncludeBuildOutput>false</IncludeBuildOutput>
     <ImplicitUsings>disable</ImplicitUsings>
-    <Description>Deconstructors for IList(Array, List, etc.) and Tuple and KeyValuePair and more.</Description>
+    <Description>Provides Deconstruct methods for several types.</Description>
   </PropertyGroup>
   <ItemGroup Condition="'$(TargetFramework)' == 'net2.0'">
     <ProjectReference Include="..\Bluehill.Deconstructors.List\Bluehill.Deconstructors.List.csproj" />

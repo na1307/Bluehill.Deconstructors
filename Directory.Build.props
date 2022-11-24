@@ -13,18 +13,13 @@
     <PackageTags>deconstructor;deconstruct;na1307;bluehill</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageReleaseNotes>https://na1307.github.io/Bluehill.Deconstructors/CHANGELOG.html</PackageReleaseNotes>
     <RepositoryUrl>https://github.com/na1307/Bluehill.Deconstructors</RepositoryUrl>
     <AssemblyVersion>2</AssemblyVersion>
     <FileVersion>2.0.0</FileVersion>
-    <Version>2.0-alpha.17</Version>
+    <Version>2.0-beta.1</Version>
     <EnforceCodeStyleInBuild>True</EnforceCodeStyleInBuild>
     <EnableNETAnalyzers>True</EnableNETAnalyzers>
     <AnalysisLevel>latest</AnalysisLevel>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(TargetFramework)' == 'net3.5-client' or '$(TargetFramework)' == 'net4.0-client'">
-    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
-  </PropertyGroup>
-  <ItemGroup Condition="'$(UseWindowsForms)' == 'true' and '$(TargetFramework)' == 'net2.0'">
-    <Reference Include="System.Windows.Forms" />
-  </ItemGroup>
 </Project>
