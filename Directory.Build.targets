@@ -2,9 +2,6 @@
   <PropertyGroup>
     <NoWarn>$(NoWarn);S107;S2436</NoWarn>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(TargetFramework)' == 'net3.5-client' or '$(TargetFramework)' == 'net4.0-client'">
-    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
-  </PropertyGroup>
   <PropertyGroup Condition="'$(GeneratePackageOnBuild)' == 'true'">
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>

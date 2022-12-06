@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bluehill.Deconstructors.Tup
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bluehill.Deconstructors.Drawing", "Bluehill.Deconstructors.Drawing\Bluehill.Deconstructors.Drawing.csproj", "{995A86E2-648F-4900-89DA-BA4F08261AAA}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bluehill.Deconstructors.Numerics", "Bluehill.Deconstructors.Numerics\Bluehill.Deconstructors.Numerics.csproj", "{3496D69C-BB48-47FF-9131-3E13FBDA2591}"
+EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bluehill.Deconstructors.Forms", "Bluehill.Deconstructors.Forms\Bluehill.Deconstructors.Forms.csproj", "{E52046B9-10AB-483D-B535-4573AF9551B1}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bluehill.Deconstructors.Wpf", "Bluehill.Deconstructors.Wpf\Bluehill.Deconstructors.Wpf.csproj", "{F8D954C3-8954-4D3B-845B-F294628D8489}"
@@ -35,13 +37,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bluehill.Deconstructors.Lis
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bluehill.Deconstructors.Drawing.Test", "Bluehill.Deconstructors.Drawing.Test\Bluehill.Deconstructors.Drawing.Test.csproj", "{8D7F7185-9E3C-49C9-AA8A-BDF4765EF28F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bluehill.Deconstructors.Forms.Test", "Bluehill.Deconstructors.Forms.Test\Bluehill.Deconstructors.Forms.Test.csproj", "{40C0838E-9BE4-4CAE-8500-A95F18E1A707}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bluehill.Deconstructors.Numerics.Test", "Bluehill.Deconstructors.Numerics.Test\Bluehill.Deconstructors.Numerics.Test.csproj", "{884D714B-E432-492F-81A9-9DE5A28C15AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bluehill.Deconstructors.Wpf.Test", "Bluehill.Deconstructors.Wpf.Test\Bluehill.Deconstructors.Wpf.Test.csproj", "{19CD5A07-CF79-40CE-9E45-57321399E843}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bluehill.Deconstructors.Forms.Test", "Bluehill.Deconstructors.Forms.Test\Bluehill.Deconstructors.Forms.Test.csproj", "{40C0838E-9BE4-4CAE-8500-A95F18E1A707}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bluehill.Deconstructors.KeyValuePair.Test", "Bluehill.Deconstructors.KeyValuePair.Test\Bluehill.Deconstructors.KeyValuePair.Test.csproj", "{2DACB48B-2F98-45E6-85BB-2421216AE133}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bluehill.Deconstructors.Wpf.Test", "Bluehill.Deconstructors.Wpf.Test\Bluehill.Deconstructors.Wpf.Test.csproj", "{19CD5A07-CF79-40CE-9E45-57321399E843}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bluehill.Deconstructors.Tuple.Test", "Bluehill.Deconstructors.Tuple.Test\Bluehill.Deconstructors.Tuple.Test.csproj", "{143572EA-8104-4C2A-82DA-B9365DE609BF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bluehill.Deconstructors.KeyValuePair.Test", "Bluehill.Deconstructors.KeyValuePair.Test\Bluehill.Deconstructors.KeyValuePair.Test.csproj", "{2DACB48B-2F98-45E6-85BB-2421216AE133}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bluehill.Deconstructors.Tuple.Test", "Bluehill.Deconstructors.Tuple.Test\Bluehill.Deconstructors.Tuple.Test.csproj", "{143572EA-8104-4C2A-82DA-B9365DE609BF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +73,10 @@ Global
 		{995A86E2-648F-4900-89DA-BA4F08261AAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{995A86E2-648F-4900-89DA-BA4F08261AAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{995A86E2-648F-4900-89DA-BA4F08261AAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3496D69C-BB48-47FF-9131-3E13FBDA2591}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3496D69C-BB48-47FF-9131-3E13FBDA2591}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3496D69C-BB48-47FF-9131-3E13FBDA2591}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3496D69C-BB48-47FF-9131-3E13FBDA2591}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E52046B9-10AB-483D-B535-4573AF9551B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E52046B9-10AB-483D-B535-4573AF9551B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E52046B9-10AB-483D-B535-4573AF9551B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -85,6 +93,10 @@ Global
 		{8D7F7185-9E3C-49C9-AA8A-BDF4765EF28F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D7F7185-9E3C-49C9-AA8A-BDF4765EF28F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D7F7185-9E3C-49C9-AA8A-BDF4765EF28F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{884D714B-E432-492F-81A9-9DE5A28C15AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{884D714B-E432-492F-81A9-9DE5A28C15AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{884D714B-E432-492F-81A9-9DE5A28C15AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{884D714B-E432-492F-81A9-9DE5A28C15AC}.Release|Any CPU.Build.0 = Release|Any CPU
 		{40C0838E-9BE4-4CAE-8500-A95F18E1A707}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{40C0838E-9BE4-4CAE-8500-A95F18E1A707}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40C0838E-9BE4-4CAE-8500-A95F18E1A707}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -111,6 +123,7 @@ Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		ExtensionAttribute\ExtensionAttribute.projitems*{149d1e4e-9431-430f-bab3-d7fdecf2a6be}*SharedItemsImports = 13
 		ExtensionAttribute\ExtensionAttribute.projitems*{159dcb1f-43dc-4e26-a2fd-767b45abc195}*SharedItemsImports = 5
+		ExtensionAttribute\ExtensionAttribute.projitems*{3496d69c-bb48-47ff-9131-3e13fbda2591}*SharedItemsImports = 5
 		ExtensionAttribute\ExtensionAttribute.projitems*{60197dea-d3c4-42e9-888d-ff1fcd247cbb}*SharedItemsImports = 5
 		ExtensionAttribute\ExtensionAttribute.projitems*{6954a641-3338-41d1-8757-b5e031e7a5e9}*SharedItemsImports = 5
 		ExtensionAttribute\ExtensionAttribute.projitems*{995a86e2-648f-4900-89da-ba4f08261aaa}*SharedItemsImports = 5
