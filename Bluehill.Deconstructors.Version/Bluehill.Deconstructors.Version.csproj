@@ -1,13 +1,12 @@
-﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFrameworks>net2.0;net3.5;net4.0-client;net6.0-windows</TargetFrameworks>
+    <TargetFrameworks>net2.0;net3.5;net4.0-client;netstandard2.1</TargetFrameworks>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <Description>Deconstructors for Windows Forms types.</Description>
-    <PackageTags>$(PackageTags);winforms;forms</PackageTags>
+    <Description>Deconstructors for Version.</Description>
+    <PackageTags>$(PackageTags);version</PackageTags>
     <AssemblyVersion>2</AssemblyVersion>
     <FileVersion>2.0.0</FileVersion>
-    <Version>2.0-beta.2</Version>
-    <UseWindowsForms>true</UseWindowsForms>
+    <Version>2.0-beta.3</Version>
     <SignAssembly>True</SignAssembly>
     <AssemblyOriginatorKeyFile>..\bluehill.snk</AssemblyOriginatorKeyFile>
     <CodeAnalysisRuleSet>..\.sonarlint\na1307_bluehill.deconstructorscsharp.ruleset</CodeAnalysisRuleSet>
@@ -16,9 +15,6 @@
     <Using Remove="System.Linq" />
     <Using Remove="System.Net.Http" />
     <Using Remove="System.Threading.Tasks" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Bluehill.Deconstructors.Drawing\Bluehill.Deconstructors.Drawing.csproj" />
   </ItemGroup>
   <ItemGroup>
     <AssemblyAttribute Include="System.CLSCompliantAttribute">

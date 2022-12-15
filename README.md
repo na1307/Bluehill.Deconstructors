@@ -9,3 +9,4 @@ Consists of:
 1. [Bluehill.Deconstructors.Numerics](https://www.nuget.org/packages/Bluehill.Deconstructors.Numerics) (Vector, Matrix, etc.)
 1. [Bluehill.Deconstructors.Forms](https://www.nuget.org/packages/Bluehill.Deconstructors.Forms) (Padding, TableLayoutPanelCellPosition, etc.)
 1. [Bluehill.Deconstructors.Wpf](https://www.nuget.org/packages/Bluehill.Deconstructors.Wpf) (WPF Point, Color, etc.)
+1. [Bluehill.Deconstructors.Version](https://www.nuget.org/packages/Bluehill.Deconstructors.Version) (Version)

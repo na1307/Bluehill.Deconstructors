@@ -19,6 +19,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bluehill.Deconstructors.For
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bluehill.Deconstructors.Wpf", "Bluehill.Deconstructors.Wpf\Bluehill.Deconstructors.Wpf.csproj", "{F8D954C3-8954-4D3B-845B-F294628D8489}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bluehill.Deconstructors.Version", "Bluehill.Deconstructors.Version\Bluehill.Deconstructors.Version.csproj", "{CBCCEB39-92FE-46B0-86E3-20403FF7684B}"
+EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "솔루션 항목", "솔루션 항목", "{CF78EF3F-0E13-42AB-AC5E-A37348922024}"
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
@@ -46,6 +48,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bluehill.Deconstructors.KeyValuePair.Test", "Bluehill.Deconstructors.KeyValuePair.Test\Bluehill.Deconstructors.KeyValuePair.Test.csproj", "{2DACB48B-2F98-45E6-85BB-2421216AE133}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bluehill.Deconstructors.Tuple.Test", "Bluehill.Deconstructors.Tuple.Test\Bluehill.Deconstructors.Tuple.Test.csproj", "{143572EA-8104-4C2A-82DA-B9365DE609BF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bluehill.Deconstructors.Version.Test", "Bluehill.Deconstructors.Version.Test\Bluehill.Deconstructors.Version.Test.csproj", "{01775CD6-1561-4423-BEF7-9CAFB446A8D4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -85,6 +89,10 @@ Global
 		{F8D954C3-8954-4D3B-845B-F294628D8489}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F8D954C3-8954-4D3B-845B-F294628D8489}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F8D954C3-8954-4D3B-845B-F294628D8489}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBCCEB39-92FE-46B0-86E3-20403FF7684B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBCCEB39-92FE-46B0-86E3-20403FF7684B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBCCEB39-92FE-46B0-86E3-20403FF7684B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBCCEB39-92FE-46B0-86E3-20403FF7684B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2E6E7B04-F991-4626-8C47-FEEB8E9E84A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2E6E7B04-F991-4626-8C47-FEEB8E9E84A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E6E7B04-F991-4626-8C47-FEEB8E9E84A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -113,6 +121,10 @@ Global
 		{143572EA-8104-4C2A-82DA-B9365DE609BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{143572EA-8104-4C2A-82DA-B9365DE609BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{143572EA-8104-4C2A-82DA-B9365DE609BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01775CD6-1561-4423-BEF7-9CAFB446A8D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01775CD6-1561-4423-BEF7-9CAFB446A8D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01775CD6-1561-4423-BEF7-9CAFB446A8D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01775CD6-1561-4423-BEF7-9CAFB446A8D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -127,6 +139,7 @@ Global
 		ExtensionAttribute\ExtensionAttribute.projitems*{60197dea-d3c4-42e9-888d-ff1fcd247cbb}*SharedItemsImports = 5
 		ExtensionAttribute\ExtensionAttribute.projitems*{6954a641-3338-41d1-8757-b5e031e7a5e9}*SharedItemsImports = 5
 		ExtensionAttribute\ExtensionAttribute.projitems*{995a86e2-648f-4900-89da-ba4f08261aaa}*SharedItemsImports = 5
+		ExtensionAttribute\ExtensionAttribute.projitems*{cbcceb39-92fe-46b0-86e3-20403ff7684b}*SharedItemsImports = 5
 		ExtensionAttribute\ExtensionAttribute.projitems*{e52046b9-10ab-483d-b535-4573af9551b1}*SharedItemsImports = 5
 		ExtensionAttribute\ExtensionAttribute.projitems*{f8d954c3-8954-4d3b-845b-f294628d8489}*SharedItemsImports = 5
 	EndGlobalSection

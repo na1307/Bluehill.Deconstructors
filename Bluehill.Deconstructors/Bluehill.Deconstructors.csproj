@@ -6,12 +6,16 @@
     <ImplicitUsings>disable</ImplicitUsings>
     <NoWarn>$(NoWarn);NU5128</NoWarn>
     <Description>Provides Deconstruct methods for several types.</Description>
+    <AssemblyVersion>2</AssemblyVersion>
+    <FileVersion>2.0.0</FileVersion>
+    <Version>2.0-beta.3</Version>
   </PropertyGroup>
   <ItemGroup Condition="'$(TargetFramework)' == 'net2.0'">
     <ProjectReference Include="..\Bluehill.Deconstructors.List\Bluehill.Deconstructors.List.csproj" />
     <ProjectReference Include="..\Bluehill.Deconstructors.KeyValuePair\Bluehill.Deconstructors.KeyValuePair.csproj" />
     <ProjectReference Include="..\Bluehill.Deconstructors.Drawing\Bluehill.Deconstructors.Drawing.csproj" />
     <ProjectReference Include="..\Bluehill.Deconstructors.Forms\Bluehill.Deconstructors.Forms.csproj" />
+    <ProjectReference Include="..\Bluehill.Deconstructors.Version\Bluehill.Deconstructors.Version.csproj" />
   </ItemGroup>
   <ItemGroup Condition="'$(TargetFramework)' == 'net3.5'">
     <ProjectReference Include="..\Bluehill.Deconstructors.List\Bluehill.Deconstructors.List.csproj" />
@@ -19,6 +23,7 @@
     <ProjectReference Include="..\Bluehill.Deconstructors.Drawing\Bluehill.Deconstructors.Drawing.csproj" />
     <ProjectReference Include="..\Bluehill.Deconstructors.Forms\Bluehill.Deconstructors.Forms.csproj" />
     <ProjectReference Include="..\Bluehill.Deconstructors.Wpf\Bluehill.Deconstructors.Wpf.csproj" />
+    <ProjectReference Include="..\Bluehill.Deconstructors.Version\Bluehill.Deconstructors.Version.csproj" />
   </ItemGroup>
   <ItemGroup Condition="'$(TargetFramework)' == 'net4.0-client'">
     <ProjectReference Include="..\Bluehill.Deconstructors.List\Bluehill.Deconstructors.List.csproj" />
@@ -27,6 +32,7 @@
     <ProjectReference Include="..\Bluehill.Deconstructors.Drawing\Bluehill.Deconstructors.Drawing.csproj" />
     <ProjectReference Include="..\Bluehill.Deconstructors.Forms\Bluehill.Deconstructors.Forms.csproj" />
     <ProjectReference Include="..\Bluehill.Deconstructors.Wpf\Bluehill.Deconstructors.Wpf.csproj" />
+    <ProjectReference Include="..\Bluehill.Deconstructors.Version\Bluehill.Deconstructors.Version.csproj" />
   </ItemGroup>
   <ItemGroup Condition="'$(TargetFramework)' == 'net4.6'">
     <ProjectReference Include="..\Bluehill.Deconstructors.List\Bluehill.Deconstructors.List.csproj" />
@@ -36,6 +42,7 @@
     <ProjectReference Include="..\Bluehill.Deconstructors.Numerics\Bluehill.Deconstructors.Numerics.csproj" />
     <ProjectReference Include="..\Bluehill.Deconstructors.Forms\Bluehill.Deconstructors.Forms.csproj" />
     <ProjectReference Include="..\Bluehill.Deconstructors.Wpf\Bluehill.Deconstructors.Wpf.csproj" />
+    <ProjectReference Include="..\Bluehill.Deconstructors.Version\Bluehill.Deconstructors.Version.csproj" />
   </ItemGroup>
   <ItemGroup Condition="'$(TargetFramework)' == 'net4.7'">
     <ProjectReference Include="..\Bluehill.Deconstructors.List\Bluehill.Deconstructors.List.csproj" />
@@ -44,11 +51,13 @@
     <ProjectReference Include="..\Bluehill.Deconstructors.Numerics\Bluehill.Deconstructors.Numerics.csproj" />
     <ProjectReference Include="..\Bluehill.Deconstructors.Forms\Bluehill.Deconstructors.Forms.csproj" />
     <ProjectReference Include="..\Bluehill.Deconstructors.Wpf\Bluehill.Deconstructors.Wpf.csproj" />
+    <ProjectReference Include="..\Bluehill.Deconstructors.Version\Bluehill.Deconstructors.Version.csproj" />
   </ItemGroup>
   <ItemGroup Condition="'$(TargetFramework)' == 'netstandard2.1'">
     <ProjectReference Include="..\Bluehill.Deconstructors.List\Bluehill.Deconstructors.List.csproj" />
     <ProjectReference Include="..\Bluehill.Deconstructors.Drawing\Bluehill.Deconstructors.Drawing.csproj" />
     <ProjectReference Include="..\Bluehill.Deconstructors.Numerics\Bluehill.Deconstructors.Numerics.csproj" />
+    <ProjectReference Include="..\Bluehill.Deconstructors.Version\Bluehill.Deconstructors.Version.csproj" />
   </ItemGroup>
   <ItemGroup Condition="'$(TargetFramework)' == 'net6.0-windows'">
     <ProjectReference Include="..\Bluehill.Deconstructors.List\Bluehill.Deconstructors.List.csproj" />
@@ -56,6 +65,7 @@
     <ProjectReference Include="..\Bluehill.Deconstructors.Numerics\Bluehill.Deconstructors.Numerics.csproj" />
     <ProjectReference Include="..\Bluehill.Deconstructors.Forms\Bluehill.Deconstructors.Forms.csproj" />
     <ProjectReference Include="..\Bluehill.Deconstructors.Wpf\Bluehill.Deconstructors.Wpf.csproj" />
+    <ProjectReference Include="..\Bluehill.Deconstructors.Version\Bluehill.Deconstructors.Version.csproj" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="README.md" />
