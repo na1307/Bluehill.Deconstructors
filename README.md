@@ -1,5 +1,5 @@
 ![GitHub](https://img.shields.io/github/license/na1307/Bluehill.Deconstructors?style=flat-square)
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=na1307_Bluehill.Decontructors&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=na1307_Bluehill.Decontructors)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=na1307_Bluehill.Deconstructors&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=na1307_Bluehill.Decontructors)
 [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=na1307_Bluehill.Deconstructors&metric=coverage)](https://sonarcloud.io/summary/new_code?id=na1307_Bluehill.Deconstructors)
 ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/na1307/Bluehill.Deconstructors/.NET?style=flat-square)
 [![GitHub issues](https://img.shields.io/github/issues-raw/na1307/Bluehill.Deconstructors?style=flat-square)](https://github.com/na1307/Bluehill.Deconstructors/issues)

@@ -1,6 +1,12 @@
 # Changelog
 [Back](README.md)
 
+## 2.0-beta.3 (2022-12-15)
+1. Add Version
+
+## 2.0-beta.2 (2022-12-06)
+1. Add Numerics
+
 ## 2.0-beta.1 (2022-11-24)
 1. Binary Split
 1. Strong-named assemblies
