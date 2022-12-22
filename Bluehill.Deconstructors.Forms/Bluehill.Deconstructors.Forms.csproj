@@ -6,7 +6,7 @@
     <PackageTags>$(PackageTags);winforms;forms</PackageTags>
     <AssemblyVersion>2</AssemblyVersion>
     <FileVersion>2.0.0</FileVersion>
-    <Version>2.0-beta.2</Version>
+    <Version>2.0</Version>
     <UseWindowsForms>true</UseWindowsForms>
     <SignAssembly>True</SignAssembly>
     <AssemblyOriginatorKeyFile>..\bluehill.snk</AssemblyOriginatorKeyFile>
