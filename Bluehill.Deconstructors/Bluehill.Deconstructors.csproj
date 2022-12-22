@@ -8,7 +8,7 @@
     <Description>Provides Deconstruct methods for several types.</Description>
     <AssemblyVersion>2</AssemblyVersion>
     <FileVersion>2.0.0</FileVersion>
-    <Version>2.0-beta.3</Version>
+    <Version>2.0-datetime</Version>
   </PropertyGroup>
   <ItemGroup Condition="'$(TargetFramework)' == 'net2.0'">
     <ProjectReference Include="..\Bluehill.Deconstructors.List\Bluehill.Deconstructors.List.csproj" />

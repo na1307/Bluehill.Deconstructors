@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>net2.0;net3.5;net4.0-client;netstandard2.1</TargetFrameworks>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Description>Deconstructors for DateTime and etc.</Description>
+    <PackageTags>$(PackageTags);datetime</PackageTags>
+    <AssemblyVersion>2</AssemblyVersion>
+    <FileVersion>2.0.0</FileVersion>
+    <Version>2.0-datetime</Version>
+    <SignAssembly>True</SignAssembly>
+    <AssemblyOriginatorKeyFile>..\bluehill.snk</AssemblyOriginatorKeyFile>
+    <CodeAnalysisRuleSet>..\.sonarlint\na1307_bluehill.deconstructorscsharp.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Using Remove="System.Linq" />
+    <Using Remove="System.Net.Http" />
+    <Using Remove="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <AssemblyAttribute Include="System.CLSCompliantAttribute">
+      <_Parameter1>true</_Parameter1>
+    </AssemblyAttribute>
+  </ItemGroup>
+  <ItemGroup>
+    <AdditionalFiles Include="..\.sonarlint\na1307_bluehill.deconstructors\CSharp\SonarLint.xml" Link="SonarLint.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+  <Import Project="..\ExtensionAttribute\ExtensionAttribute.projitems" Label="Shared" />
+</Project>
