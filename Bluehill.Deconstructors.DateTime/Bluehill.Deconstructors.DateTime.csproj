@@ -1,9 +1,9 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFrameworks>net2.0;net3.5;net4.0-client;netstandard2.1</TargetFrameworks>
+    <TargetFrameworks>net7.0</TargetFrameworks>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Description>Deconstructors for DateTime and etc.</Description>
-    <PackageTags>$(PackageTags);datetime</PackageTags>
+    <PackageTags>$(PackageTags);datetime;dateonly;timeonly;datetimeoffset</PackageTags>
     <AssemblyVersion>2</AssemblyVersion>
     <FileVersion>2.0.0</FileVersion>
     <Version>2.0-datetime</Version>
