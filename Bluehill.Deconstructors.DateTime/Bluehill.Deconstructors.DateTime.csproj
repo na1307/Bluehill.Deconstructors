@@ -5,8 +5,8 @@
     <Description>Deconstructors for DateTime and etc.</Description>
     <PackageTags>$(PackageTags);datetime;dateonly;timeonly;datetimeoffset</PackageTags>
     <AssemblyVersion>2</AssemblyVersion>
-    <FileVersion>2.0.0</FileVersion>
-    <Version>2.0-datetime</Version>
+    <FileVersion>2.1.0</FileVersion>
+    <Version>2.1-datetime</Version>
     <SignAssembly>True</SignAssembly>
     <AssemblyOriginatorKeyFile>..\bluehill.snk</AssemblyOriginatorKeyFile>
     <CodeAnalysisRuleSet>..\.sonarlint\na1307_bluehill.deconstructorscsharp.ruleset</CodeAnalysisRuleSet>
