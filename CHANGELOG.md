@@ -1,6 +1,10 @@
 # Changelog
 [Back](README.md)
 
+## 2.0 (2023-01-03)
+* Changes from 2.0-beta.3
+1. Nothing
+
 ## 2.0-beta.3 (2022-12-15)
 1. Add Version
 
@@ -10,7 +14,7 @@
 ## 2.0-beta.1 (2022-11-24)
 1. Binary Split
 1. Strong-named assemblies
-1. Parameter order of some methods changed
+1. Change the order of parameters in some methods
    1. Color (Drawing, WPF) : from RGBA to ARGB
    1. TableLayoutPanelCellPosition : from row, column to column, row
    1. CornerRadius : from topLeft, bottomLeft, topRight, bottomRight to topLeft, topRight, bottomRight, bottomLeft
