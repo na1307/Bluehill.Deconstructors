@@ -1,11 +1,13 @@
 ﻿namespace Bluehill.Deconstructors;
 
 public static class DateTimeDeconstructors {
+#if NET6_0_OR_GREATER
     public static void Deconstruct(this DateTime dateTime, out DateOnly date, out TimeOnly time) {
         date = DateOnly.FromDateTime(dateTime);
         time = TimeOnly.FromDateTime(dateTime);
     }
 
+#endif
     public static void Deconstruct(this DateTime dateTime, out int year, out int month, out int day) {
         year = dateTime.Year;
         month = dateTime.Month;
@@ -70,6 +72,7 @@ public static class DateTimeDeconstructors {
         nanosecond = (int)(dateTime.Ticks % TimeSpan.TicksPerMillisecond % 10) * 100;
 #endif
     }
+#if NET6_0_OR_GREATER
 
     public static void Deconstruct(this DateOnly date, out int year, out int month, out int day) {
         year = date.Year;
@@ -126,4 +129,5 @@ public static class DateTimeDeconstructors {
         time = TimeOnly.FromDateTime(dateTimeOffset.DateTime);
         offset = dateTimeOffset.Offset;
     }
+#endif
 }
