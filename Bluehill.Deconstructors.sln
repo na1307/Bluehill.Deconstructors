@@ -21,6 +21,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bluehill.Deconstructors.Wpf
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bluehill.Deconstructors.Version", "Bluehill.Deconstructors.Version\Bluehill.Deconstructors.Version.csproj", "{CBCCEB39-92FE-46B0-86E3-20403FF7684B}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bluehill.Deconstructors.DateTime", "Bluehill.Deconstructors.DateTime\Bluehill.Deconstructors.DateTime.csproj", "{156A8160-6777-4738-B044-A87890986940}"
+EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "솔루션 항목", "솔루션 항목", "{CF78EF3F-0E13-42AB-AC5E-A37348922024}"
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
@@ -50,6 +52,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bluehill.Deconstructors.Tuple.Test", "Bluehill.Deconstructors.Tuple.Test\Bluehill.Deconstructors.Tuple.Test.csproj", "{143572EA-8104-4C2A-82DA-B9365DE609BF}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bluehill.Deconstructors.Version.Test", "Bluehill.Deconstructors.Version.Test\Bluehill.Deconstructors.Version.Test.csproj", "{01775CD6-1561-4423-BEF7-9CAFB446A8D4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bluehill.Deconstructors.DateTime.Test", "Bluehill.Deconstructors.DateTime.Test\Bluehill.Deconstructors.DateTime.Test.csproj", "{DB3C47F7-7DA9-44AE-A9BB-FDB998C823D1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +97,10 @@ Global
 		{CBCCEB39-92FE-46B0-86E3-20403FF7684B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CBCCEB39-92FE-46B0-86E3-20403FF7684B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CBCCEB39-92FE-46B0-86E3-20403FF7684B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{156A8160-6777-4738-B044-A87890986940}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{156A8160-6777-4738-B044-A87890986940}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{156A8160-6777-4738-B044-A87890986940}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{156A8160-6777-4738-B044-A87890986940}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2E6E7B04-F991-4626-8C47-FEEB8E9E84A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2E6E7B04-F991-4626-8C47-FEEB8E9E84A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E6E7B04-F991-4626-8C47-FEEB8E9E84A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -125,6 +133,10 @@ Global
 		{01775CD6-1561-4423-BEF7-9CAFB446A8D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01775CD6-1561-4423-BEF7-9CAFB446A8D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01775CD6-1561-4423-BEF7-9CAFB446A8D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB3C47F7-7DA9-44AE-A9BB-FDB998C823D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB3C47F7-7DA9-44AE-A9BB-FDB998C823D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB3C47F7-7DA9-44AE-A9BB-FDB998C823D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB3C47F7-7DA9-44AE-A9BB-FDB998C823D1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -134,6 +146,7 @@ Global
 	EndGlobalSection
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		ExtensionAttribute\ExtensionAttribute.projitems*{149d1e4e-9431-430f-bab3-d7fdecf2a6be}*SharedItemsImports = 13
+		ExtensionAttribute\ExtensionAttribute.projitems*{156a8160-6777-4738-b044-a87890986940}*SharedItemsImports = 5
 		ExtensionAttribute\ExtensionAttribute.projitems*{159dcb1f-43dc-4e26-a2fd-767b45abc195}*SharedItemsImports = 5
 		ExtensionAttribute\ExtensionAttribute.projitems*{3496d69c-bb48-47ff-9131-3e13fbda2591}*SharedItemsImports = 5
 		ExtensionAttribute\ExtensionAttribute.projitems*{60197dea-d3c4-42e9-888d-ff1fcd247cbb}*SharedItemsImports = 5
