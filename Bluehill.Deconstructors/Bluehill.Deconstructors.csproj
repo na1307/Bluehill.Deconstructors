@@ -59,22 +59,14 @@
     <ProjectReference Include="..\Bluehill.Deconstructors.Numerics\Bluehill.Deconstructors.Numerics.csproj" />
     <ProjectReference Include="..\Bluehill.Deconstructors.Version\Bluehill.Deconstructors.Version.csproj" />
   </ItemGroup>
-  <ItemGroup Condition="'$(TargetFramework)' == 'net6.0-windows'">
-    <ProjectReference Include="..\Bluehill.Deconstructors.List\Bluehill.Deconstructors.List.csproj" />
-    <ProjectReference Include="..\Bluehill.Deconstructors.Drawing\Bluehill.Deconstructors.Drawing.csproj" />
-    <ProjectReference Include="..\Bluehill.Deconstructors.Numerics\Bluehill.Deconstructors.Numerics.csproj" />
-    <ProjectReference Include="..\Bluehill.Deconstructors.Forms\Bluehill.Deconstructors.Forms.csproj" />
-    <ProjectReference Include="..\Bluehill.Deconstructors.Wpf\Bluehill.Deconstructors.Wpf.csproj" />
-    <ProjectReference Include="..\Bluehill.Deconstructors.Version\Bluehill.Deconstructors.Version.csproj" />
-  </ItemGroup>
-  <ItemGroup Condition="'$(TargetFramework)' == 'net7.0'">
+  <ItemGroup Condition="'$(TargetFramework)' == 'net6.0'">
     <ProjectReference Include="..\Bluehill.Deconstructors.List\Bluehill.Deconstructors.List.csproj" />
     <ProjectReference Include="..\Bluehill.Deconstructors.Drawing\Bluehill.Deconstructors.Drawing.csproj" />
     <ProjectReference Include="..\Bluehill.Deconstructors.Numerics\Bluehill.Deconstructors.Numerics.csproj" />
     <ProjectReference Include="..\Bluehill.Deconstructors.Version\Bluehill.Deconstructors.Version.csproj" />
     <ProjectReference Include="..\Bluehill.Deconstructors.DateTime\Bluehill.Deconstructors.DateTime.csproj" />
   </ItemGroup>
-  <ItemGroup Condition="'$(TargetFramework)' == 'net7.0-windows'">
+  <ItemGroup Condition="'$(TargetFramework)' == 'net6.0-windows'">
     <ProjectReference Include="..\Bluehill.Deconstructors.List\Bluehill.Deconstructors.List.csproj" />
     <ProjectReference Include="..\Bluehill.Deconstructors.Drawing\Bluehill.Deconstructors.Drawing.csproj" />
     <ProjectReference Include="..\Bluehill.Deconstructors.Numerics\Bluehill.Deconstructors.Numerics.csproj" />

@@ -47,7 +47,11 @@ public static class DateTimeDeconstructors {
         minute = dateTime.Minute;
         second = dateTime.Second;
         millisecond = dateTime.Millisecond;
+#if NET7_0_OR_GREATER
         microsecond = dateTime.Microsecond;
+#else
+        microsecond = (int)Math.Floor(dateTime.Ticks % TimeSpan.TicksPerMillisecond / (double)10);
+#endif
     }
 
     public static void Deconstruct(this DateTime dateTime, out int year, out int month, out int day, out int hour, out int minute, out int second, out int millisecond, out int microsecond, out int nanosecond) {
@@ -58,8 +62,13 @@ public static class DateTimeDeconstructors {
         minute = dateTime.Minute;
         second = dateTime.Second;
         millisecond = dateTime.Millisecond;
+#if NET7_0_OR_GREATER
         microsecond = dateTime.Microsecond;
         nanosecond = dateTime.Nanosecond;
+#else
+        microsecond = (int)Math.Floor(dateTime.Ticks % TimeSpan.TicksPerMillisecond / (double)10);
+        nanosecond = (int)(dateTime.Ticks % TimeSpan.TicksPerMillisecond % 10) * 100;
+#endif
     }
 
     public static void Deconstruct(this DateOnly date, out int year, out int month, out int day) {
@@ -91,7 +100,11 @@ public static class DateTimeDeconstructors {
         minute = time.Minute;
         second = time.Second;
         millisecond = time.Millisecond;
+#if NET7_0_OR_GREATER
         microsecond = time.Microsecond;
+#else
+        microsecond = (int)Math.Floor(time.Ticks % TimeSpan.TicksPerMillisecond / (double)10);
+#endif
     }
 
     public static void Deconstruct(this TimeOnly time, out int hour, out int minute, out int second, out int millisecond, out int microsecond, out int nanosecond) {
@@ -99,8 +112,13 @@ public static class DateTimeDeconstructors {
         minute = time.Minute;
         second = time.Second;
         millisecond = time.Millisecond;
+#if NET7_0_OR_GREATER
         microsecond = time.Microsecond;
         nanosecond = time.Nanosecond;
+#else
+        microsecond = (int)Math.Floor(time.Ticks % TimeSpan.TicksPerMillisecond / (double)10);
+        nanosecond = (int)(time.Ticks % TimeSpan.TicksPerMillisecond % 10) * 100;
+#endif
     }
 
     public static void Deconstruct(this DateTimeOffset dateTimeOffset, out DateOnly date, out TimeOnly time, out TimeSpan offset) {
