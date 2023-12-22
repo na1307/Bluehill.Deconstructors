@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFrameworks>net2.0;net3.5;net4.0-client;netstandard2.1</TargetFrameworks>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
@@ -9,7 +9,6 @@
     <Version>2.0</Version>
     <SignAssembly>True</SignAssembly>
     <AssemblyOriginatorKeyFile>..\bluehill.snk</AssemblyOriginatorKeyFile>
-    <CodeAnalysisRuleSet>..\.sonarlint\na1307_bluehill.deconstructorscsharp.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <ItemGroup>
     <Using Remove="System.Linq" />
@@ -20,9 +19,6 @@
     <AssemblyAttribute Include="System.CLSCompliantAttribute">
       <_Parameter1>true</_Parameter1>
     </AssemblyAttribute>
-  </ItemGroup>
-  <ItemGroup>
-    <AdditionalFiles Include="..\.sonarlint\na1307_bluehill.deconstructors\CSharp\SonarLint.xml" Link="SonarLint.xml" />
   </ItemGroup>
   <ItemGroup>
     <None Include="README.md">
