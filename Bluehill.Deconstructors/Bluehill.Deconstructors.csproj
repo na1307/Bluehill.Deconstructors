@@ -7,8 +7,8 @@
     <NoWarn>$(NoWarn);NU5128</NoWarn>
     <Description>Provides Deconstruct methods for several types.</Description>
     <AssemblyVersion>2</AssemblyVersion>
-    <FileVersion>2.1.0</FileVersion>
-    <Version>2.1</Version>
+    <FileVersion>2.2.0</FileVersion>
+    <Version>2.2</Version>
   </PropertyGroup>
   <ItemGroup Condition="'$(TargetFramework)' == 'net2.0'">
     <ProjectReference Include="..\Bluehill.Deconstructors.List\Bluehill.Deconstructors.List.csproj" />
@@ -64,6 +64,7 @@
     <ProjectReference Include="..\Bluehill.Deconstructors.Numerics\Bluehill.Deconstructors.Numerics.csproj" />
     <ProjectReference Include="..\Bluehill.Deconstructors.Version\Bluehill.Deconstructors.Version.csproj" />
     <ProjectReference Include="..\Bluehill.Deconstructors.DateTime\Bluehill.Deconstructors.DateTime.csproj" />
+    <ProjectReference Include="..\Bluehill.Deconstructors.Span\Bluehill.Deconstructors.Span.csproj" />
   </ItemGroup>
   <ItemGroup Condition="'$(TargetFramework)' == 'net6.0-windows'">
     <ProjectReference Include="..\Bluehill.Deconstructors.List\Bluehill.Deconstructors.List.csproj" />
@@ -73,6 +74,7 @@
     <ProjectReference Include="..\Bluehill.Deconstructors.Wpf\Bluehill.Deconstructors.Wpf.csproj" />
     <ProjectReference Include="..\Bluehill.Deconstructors.Version\Bluehill.Deconstructors.Version.csproj" />
     <ProjectReference Include="..\Bluehill.Deconstructors.DateTime\Bluehill.Deconstructors.DateTime.csproj" />
+    <ProjectReference Include="..\Bluehill.Deconstructors.Span\Bluehill.Deconstructors.Span.csproj" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="README.md" />

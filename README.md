@@ -10,3 +10,5 @@ Consists of:
 1. [Bluehill.Deconstructors.Forms](https://www.nuget.org/packages/Bluehill.Deconstructors.Forms) (Padding, TableLayoutPanelCellPosition, etc.)
 1. [Bluehill.Deconstructors.Wpf](https://www.nuget.org/packages/Bluehill.Deconstructors.Wpf) (WPF Point, Color, etc.)
 1. [Bluehill.Deconstructors.Version](https://www.nuget.org/packages/Bluehill.Deconstructors.Version) (Version)
+1. [Bluehill.Deconstructors.DateTime](https://www.nuget.org/packages/Bluehill.Deconstructors.DateTime) (DateTime, etc.)
+1. [Bluehill.Deconstructors.Span](https://www.nuget.org/packages/Bluehill.Deconstructors.Span) (Span, ReadonlySpan)
