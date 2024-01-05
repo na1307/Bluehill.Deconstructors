@@ -1,6 +1,12 @@
 # Changelog
 [Back](README.md)
 
+## 2.2 (2024-01-05)
+1. Add Span
+
+## 2.1 (2023-12-22)
+1. Add DateTime
+
 ## 2.0 (2023-01-03)
 * Changes from 2.0-beta.3
 1. Nothing

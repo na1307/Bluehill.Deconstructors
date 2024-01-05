@@ -45,6 +45,14 @@ using Bluehill.Deconstructors;
    1. Vector2/3/4
    1. Matrix3x2/4x4
 1. Version
+1. DateTime
+   1. DateTime
+   1. DateOnly
+   1. TimeOnly
+   1. DateTimeOffset
+1. Span
+   1. Span
+   1. ReadOnlySpan
 
 ## Changelog
 [Changelog](CHANGELOG.md)
