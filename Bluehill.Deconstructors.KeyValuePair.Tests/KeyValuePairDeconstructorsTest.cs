@@ -1,4 +1,4 @@
-﻿namespace Bluehill.Deconstructors.KeyValuePair.Test;
+﻿namespace Bluehill.Deconstructors.KeyValuePair.Tests;
 
 public sealed class KeyValuePairDeconstructorsTest {
     [Fact]

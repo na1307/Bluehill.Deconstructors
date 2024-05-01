@@ -1,4 +1,4 @@
-﻿namespace Bluehill.Deconstructors.DateTime.Test;
+﻿namespace Bluehill.Deconstructors.DateTime.Tests;
 
 public sealed class DateTimeDeconstructorsTest {
     private static readonly System.DateTime now = System.DateTime.Now;

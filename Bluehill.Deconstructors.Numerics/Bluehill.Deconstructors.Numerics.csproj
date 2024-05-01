@@ -1,6 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFrameworks>net4.6;netstandard2.1</TargetFrameworks>
+    <TargetFrameworks>net46;netstandard2.1</TargetFrameworks>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Description>Deconstructors for Numerics types.</Description>
     <PackageTags>$(PackageTags);numerics;vector;matrix</PackageTags>
@@ -12,9 +12,6 @@
   </PropertyGroup>
   <ItemGroup>
     <Using Include="System.Numerics" />
-    <Using Remove="System.Linq" />
-    <Using Remove="System.Net.Http" />
-    <Using Remove="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
     <AssemblyAttribute Include="System.CLSCompliantAttribute">

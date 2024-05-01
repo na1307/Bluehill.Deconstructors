@@ -1,6 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFrameworks>net2.0;net3.5;net4.0-client;netstandard2.1</TargetFrameworks>
+    <TargetFrameworks>net20;net35;net40;netstandard2.1</TargetFrameworks>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Description>Deconstructors for Version.</Description>
     <PackageTags>$(PackageTags);version</PackageTags>
@@ -10,11 +10,6 @@
     <SignAssembly>True</SignAssembly>
     <AssemblyOriginatorKeyFile>..\bluehill.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
-  <ItemGroup>
-    <Using Remove="System.Linq" />
-    <Using Remove="System.Net.Http" />
-    <Using Remove="System.Threading.Tasks" />
-  </ItemGroup>
   <ItemGroup>
     <AssemblyAttribute Include="System.CLSCompliantAttribute">
       <_Parameter1>true</_Parameter1>

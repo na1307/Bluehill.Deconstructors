@@ -1,4 +1,4 @@
-﻿namespace Bluehill.Deconstructors.Wpf.Test;
+﻿namespace Bluehill.Deconstructors.Wpf.Tests;
 
 public sealed class WpfDeconstructorsTest {
     [Fact]

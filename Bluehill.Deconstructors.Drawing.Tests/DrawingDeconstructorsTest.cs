@@ -1,4 +1,4 @@
-﻿namespace Bluehill.Deconstructors.Drawing.Test;
+﻿namespace Bluehill.Deconstructors.Drawing.Tests;
 
 public sealed class DrawingDeconstructorsTest {
     [Fact]

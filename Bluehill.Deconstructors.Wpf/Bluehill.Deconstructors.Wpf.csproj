@@ -1,6 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
   <PropertyGroup>
-    <TargetFrameworks>net3.5;net4.0-client;net6.0-windows</TargetFrameworks>
+    <TargetFrameworks>net35;net40;net6.0-windows</TargetFrameworks>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Description>Deconstructors for WPF types.</Description>
     <PackageTags>$(PackageTags);wpf</PackageTags>
@@ -14,9 +14,6 @@
   <ItemGroup>
     <Using Include="System.Windows" />
     <Using Include="System.Windows.Media" />
-    <Using Remove="System.Linq" />
-    <Using Remove="System.Net.Http" />
-    <Using Remove="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
     <AssemblyAttribute Include="System.CLSCompliantAttribute">

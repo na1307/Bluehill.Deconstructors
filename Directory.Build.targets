@@ -8,8 +8,11 @@
   </PropertyGroup>
   <ItemGroup>
     <Using Include="System.ComponentModel" />
+    <Using Remove="System.Linq" />
+    <Using Remove="System.Net.Http" />
+    <Using Remove="System.Threading.Tasks" />
   </ItemGroup>
-  <ItemGroup Condition="'$(UseWindowsForms)' == 'true' and '$(TargetFramework)' == 'net2.0'">
+  <ItemGroup Condition="'$(UseWindowsForms)' == 'true' and '$(TargetFramework)' == 'net20'">
     <Reference Include="System.Windows.Forms" />
   </ItemGroup>
 </Project>

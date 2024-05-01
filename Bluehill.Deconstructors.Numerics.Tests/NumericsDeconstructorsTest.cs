@@ -1,4 +1,4 @@
-﻿namespace Bluehill.Deconstructors.Numerics.Test;
+﻿namespace Bluehill.Deconstructors.Numerics.Tests;
 
 public sealed class NumericsDeconstructorsTest {
     [Fact]

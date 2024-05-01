@@ -1,4 +1,4 @@
-﻿namespace Bluehill.Deconstructors.Version.Test;
+﻿namespace Bluehill.Deconstructors.Version.Tests;
 
 public sealed class VersionDeconstructorsTest {
     [Fact]

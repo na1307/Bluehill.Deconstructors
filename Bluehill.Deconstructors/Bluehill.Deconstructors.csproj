@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFrameworks>net2.0;net3.5;net4.0-client;net4.6;net4.7;netstandard2.1;net6.0-windows</TargetFrameworks>
+    <TargetFrameworks>net20;net35;net40;net46;net47;netstandard2.1;net6.0-windows</TargetFrameworks>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <IncludeBuildOutput>false</IncludeBuildOutput>
     <ImplicitUsings>disable</ImplicitUsings>
@@ -10,7 +10,7 @@
     <FileVersion>2.2.0</FileVersion>
     <Version>2.2</Version>
   </PropertyGroup>
-  <ItemGroup Condition="'$(TargetFramework)' == 'net2.0'">
+  <ItemGroup Condition="'$(TargetFramework)' == 'net20'">
     <ProjectReference Include="..\Bluehill.Deconstructors.List\Bluehill.Deconstructors.List.csproj" />
     <ProjectReference Include="..\Bluehill.Deconstructors.KeyValuePair\Bluehill.Deconstructors.KeyValuePair.csproj" />
     <ProjectReference Include="..\Bluehill.Deconstructors.Drawing\Bluehill.Deconstructors.Drawing.csproj" />
@@ -18,7 +18,7 @@
     <ProjectReference Include="..\Bluehill.Deconstructors.Version\Bluehill.Deconstructors.Version.csproj" />
     <ProjectReference Include="..\Bluehill.Deconstructors.DateTime\Bluehill.Deconstructors.DateTime.csproj" />
   </ItemGroup>
-  <ItemGroup Condition="'$(TargetFramework)' == 'net3.5'">
+  <ItemGroup Condition="'$(TargetFramework)' == 'net35'">
     <ProjectReference Include="..\Bluehill.Deconstructors.List\Bluehill.Deconstructors.List.csproj" />
     <ProjectReference Include="..\Bluehill.Deconstructors.KeyValuePair\Bluehill.Deconstructors.KeyValuePair.csproj" />
     <ProjectReference Include="..\Bluehill.Deconstructors.Drawing\Bluehill.Deconstructors.Drawing.csproj" />
@@ -27,7 +27,7 @@
     <ProjectReference Include="..\Bluehill.Deconstructors.Version\Bluehill.Deconstructors.Version.csproj" />
     <ProjectReference Include="..\Bluehill.Deconstructors.DateTime\Bluehill.Deconstructors.DateTime.csproj" />
   </ItemGroup>
-  <ItemGroup Condition="'$(TargetFramework)' == 'net4.0-client'">
+  <ItemGroup Condition="'$(TargetFramework)' == 'net40'">
     <ProjectReference Include="..\Bluehill.Deconstructors.List\Bluehill.Deconstructors.List.csproj" />
     <ProjectReference Include="..\Bluehill.Deconstructors.KeyValuePair\Bluehill.Deconstructors.KeyValuePair.csproj" />
     <ProjectReference Include="..\Bluehill.Deconstructors.Tuple\Bluehill.Deconstructors.Tuple.csproj" />
@@ -37,7 +37,7 @@
     <ProjectReference Include="..\Bluehill.Deconstructors.Version\Bluehill.Deconstructors.Version.csproj" />
     <ProjectReference Include="..\Bluehill.Deconstructors.DateTime\Bluehill.Deconstructors.DateTime.csproj" />
   </ItemGroup>
-  <ItemGroup Condition="'$(TargetFramework)' == 'net4.6'">
+  <ItemGroup Condition="'$(TargetFramework)' == 'net46'">
     <ProjectReference Include="..\Bluehill.Deconstructors.List\Bluehill.Deconstructors.List.csproj" />
     <ProjectReference Include="..\Bluehill.Deconstructors.KeyValuePair\Bluehill.Deconstructors.KeyValuePair.csproj" />
     <ProjectReference Include="..\Bluehill.Deconstructors.Tuple\Bluehill.Deconstructors.Tuple.csproj" />
@@ -48,7 +48,7 @@
     <ProjectReference Include="..\Bluehill.Deconstructors.Version\Bluehill.Deconstructors.Version.csproj" />
     <ProjectReference Include="..\Bluehill.Deconstructors.DateTime\Bluehill.Deconstructors.DateTime.csproj" />
   </ItemGroup>
-  <ItemGroup Condition="'$(TargetFramework)' == 'net4.7'">
+  <ItemGroup Condition="'$(TargetFramework)' == 'net47'">
     <ProjectReference Include="..\Bluehill.Deconstructors.List\Bluehill.Deconstructors.List.csproj" />
     <ProjectReference Include="..\Bluehill.Deconstructors.KeyValuePair\Bluehill.Deconstructors.KeyValuePair.csproj" />
     <ProjectReference Include="..\Bluehill.Deconstructors.Drawing\Bluehill.Deconstructors.Drawing.csproj" />

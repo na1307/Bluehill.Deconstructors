@@ -1,4 +1,4 @@
-﻿namespace Bluehill.Deconstructors.Forms.Test;
+﻿namespace Bluehill.Deconstructors.Forms.Tests;
 
 public sealed class FormsDeconstructorsTest {
     [Fact]

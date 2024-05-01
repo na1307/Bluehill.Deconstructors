@@ -23,6 +23,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bluehill.Deconstructors.Ver
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bluehill.Deconstructors.DateTime", "Bluehill.Deconstructors.DateTime\Bluehill.Deconstructors.DateTime.csproj", "{156A8160-6777-4738-B044-A87890986940}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bluehill.Deconstructors.Span", "Bluehill.Deconstructors.Span\Bluehill.Deconstructors.Span.csproj", "{B1E4F4E8-DA12-4F35-9CF7-A5BCFF032870}"
+EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "솔루션 항목", "솔루션 항목", "{CF78EF3F-0E13-42AB-AC5E-A37348922024}"
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
@@ -36,27 +38,25 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "솔루션 항목", "솔루�
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "ExtensionAttribute", "ExtensionAttribute\ExtensionAttribute.shproj", "{149D1E4E-9431-430F-BAB3-D7FDECF2A6BE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bluehill.Deconstructors.List.Test", "Bluehill.Deconstructors.List.Test\Bluehill.Deconstructors.List.Test.csproj", "{2E6E7B04-F991-4626-8C47-FEEB8E9E84A8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bluehill.Deconstructors.List.Tests", "Bluehill.Deconstructors.List.Tests\Bluehill.Deconstructors.List.Tests.csproj", "{2E6E7B04-F991-4626-8C47-FEEB8E9E84A8}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bluehill.Deconstructors.Drawing.Test", "Bluehill.Deconstructors.Drawing.Test\Bluehill.Deconstructors.Drawing.Test.csproj", "{8D7F7185-9E3C-49C9-AA8A-BDF4765EF28F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bluehill.Deconstructors.Drawing.Tests", "Bluehill.Deconstructors.Drawing.Tests\Bluehill.Deconstructors.Drawing.Tests.csproj", "{8D7F7185-9E3C-49C9-AA8A-BDF4765EF28F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bluehill.Deconstructors.Numerics.Test", "Bluehill.Deconstructors.Numerics.Test\Bluehill.Deconstructors.Numerics.Test.csproj", "{884D714B-E432-492F-81A9-9DE5A28C15AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bluehill.Deconstructors.Numerics.Tests", "Bluehill.Deconstructors.Numerics.Tests\Bluehill.Deconstructors.Numerics.Tests.csproj", "{884D714B-E432-492F-81A9-9DE5A28C15AC}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bluehill.Deconstructors.Forms.Test", "Bluehill.Deconstructors.Forms.Test\Bluehill.Deconstructors.Forms.Test.csproj", "{40C0838E-9BE4-4CAE-8500-A95F18E1A707}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bluehill.Deconstructors.Forms.Tests", "Bluehill.Deconstructors.Forms.Tests\Bluehill.Deconstructors.Forms.Tests.csproj", "{40C0838E-9BE4-4CAE-8500-A95F18E1A707}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bluehill.Deconstructors.Wpf.Test", "Bluehill.Deconstructors.Wpf.Test\Bluehill.Deconstructors.Wpf.Test.csproj", "{19CD5A07-CF79-40CE-9E45-57321399E843}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bluehill.Deconstructors.Wpf.Tests", "Bluehill.Deconstructors.Wpf.Tests\Bluehill.Deconstructors.Wpf.Tests.csproj", "{19CD5A07-CF79-40CE-9E45-57321399E843}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bluehill.Deconstructors.KeyValuePair.Test", "Bluehill.Deconstructors.KeyValuePair.Test\Bluehill.Deconstructors.KeyValuePair.Test.csproj", "{2DACB48B-2F98-45E6-85BB-2421216AE133}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bluehill.Deconstructors.KeyValuePair.Tests", "Bluehill.Deconstructors.KeyValuePair.Tests\Bluehill.Deconstructors.KeyValuePair.Tests.csproj", "{2DACB48B-2F98-45E6-85BB-2421216AE133}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bluehill.Deconstructors.Tuple.Test", "Bluehill.Deconstructors.Tuple.Test\Bluehill.Deconstructors.Tuple.Test.csproj", "{143572EA-8104-4C2A-82DA-B9365DE609BF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bluehill.Deconstructors.Tuple.Tests", "Bluehill.Deconstructors.Tuple.Tests\Bluehill.Deconstructors.Tuple.Tests.csproj", "{143572EA-8104-4C2A-82DA-B9365DE609BF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bluehill.Deconstructors.Version.Test", "Bluehill.Deconstructors.Version.Test\Bluehill.Deconstructors.Version.Test.csproj", "{01775CD6-1561-4423-BEF7-9CAFB446A8D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bluehill.Deconstructors.Version.Tests", "Bluehill.Deconstructors.Version.Tests\Bluehill.Deconstructors.Version.Tests.csproj", "{01775CD6-1561-4423-BEF7-9CAFB446A8D4}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bluehill.Deconstructors.DateTime.Test", "Bluehill.Deconstructors.DateTime.Test\Bluehill.Deconstructors.DateTime.Test.csproj", "{DB3C47F7-7DA9-44AE-A9BB-FDB998C823D1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bluehill.Deconstructors.DateTime.Tests", "Bluehill.Deconstructors.DateTime.Tests\Bluehill.Deconstructors.DateTime.Tests.csproj", "{DB3C47F7-7DA9-44AE-A9BB-FDB998C823D1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bluehill.Deconstructors.Span", "Bluehill.Deconstructors.Span\Bluehill.Deconstructors.Span.csproj", "{B1E4F4E8-DA12-4F35-9CF7-A5BCFF032870}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bluehill.Deconstructors.Span.Test", "Bluehill.Deconstructors.Span.Test\Bluehill.Deconstructors.Span.Test.csproj", "{F0B23EFE-F673-49A6-8817-1F7F5C12CC58}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bluehill.Deconstructors.Span.Tests", "Bluehill.Deconstructors.Span.Tests\Bluehill.Deconstructors.Span.Tests.csproj", "{F0B23EFE-F673-49A6-8817-1F7F5C12CC58}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

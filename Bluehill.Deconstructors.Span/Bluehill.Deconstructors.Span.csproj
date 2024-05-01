@@ -11,11 +11,6 @@
     <AssemblyOriginatorKeyFile>..\bluehill.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
-    <Using Remove="System.Linq" />
-    <Using Remove="System.Net.Http" />
-    <Using Remove="System.Threading.Tasks" />
-  </ItemGroup>
-  <ItemGroup>
     <AssemblyAttribute Include="System.CLSCompliantAttribute">
       <_Parameter1>true</_Parameter1>
     </AssemblyAttribute>
