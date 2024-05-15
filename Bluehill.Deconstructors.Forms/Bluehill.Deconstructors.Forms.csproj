@@ -1,12 +1,12 @@
 <Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
   <PropertyGroup>
-    <TargetFrameworks>net20;net35;net40;net6.0-windows</TargetFrameworks>
+    <TargetFrameworks>net20;net35;net6.0-windows</TargetFrameworks>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Description>Deconstructors for Windows Forms types.</Description>
     <PackageTags>$(PackageTags);winforms;forms</PackageTags>
     <AssemblyVersion>2</AssemblyVersion>
-    <FileVersion>2.0.0</FileVersion>
-    <Version>2.0</Version>
+    <FileVersion>2.3.0</FileVersion>
+    <Version>2.3</Version>
     <UseWindowsForms>true</UseWindowsForms>
     <SignAssembly>True</SignAssembly>
     <AssemblyOriginatorKeyFile>..\bluehill.snk</AssemblyOriginatorKeyFile>
