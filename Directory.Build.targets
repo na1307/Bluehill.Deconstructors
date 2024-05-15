@@ -8,6 +8,9 @@
     <EmbedUntrackedSources>true</EmbedUntrackedSources>
     <EnablePackageValidation>true</EnablePackageValidation>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(IsTestProject)' != 'true'">
+    <RootNamespace>Bluehill.Deconstructors</RootNamespace>
+  </PropertyGroup>
   <ItemGroup>
     <Using Include="System.ComponentModel" />
     <Using Remove="System.Linq" />
