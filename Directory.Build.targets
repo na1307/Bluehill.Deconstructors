@@ -17,7 +17,4 @@
     <Using Remove="System.Net.Http" />
     <Using Remove="System.Threading.Tasks" />
   </ItemGroup>
-  <ItemGroup Condition="'$(UseWindowsForms)' == 'true' and '$(TargetFramework)' == 'net20'">
-    <Reference Include="System.Windows.Forms" />
-  </ItemGroup>
 </Project>
