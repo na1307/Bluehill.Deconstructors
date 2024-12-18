@@ -8,12 +8,17 @@
     <PackageReleaseNotes>https://na1307.github.io/Bluehill.Deconstructors/CHANGELOG.html</PackageReleaseNotes>
     <RepositoryUrl>https://github.com/na1307/Bluehill.Deconstructors</RepositoryUrl>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(GITHUB_ACTIONS)' == 'true'">
+    <ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>
+  </PropertyGroup>
   <PropertyGroup Condition="'$(MSBuildProjectName.Substring($([MSBuild]::Subtract($(MSBuildProjectName.Length), 5))))' == 'Tests'">
     <IsTestProject>true</IsTestProject>
   </PropertyGroup>
   <PropertyGroup Condition="'$(IsTestProject)' == 'true'">
     <TargetFramework>net9.0</TargetFramework>
     <IsPackable>false</IsPackable>
+    <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
+    <RestoreLockedMode Condition="'$(ContinuousIntegrationBuild)' == 'true'">true</RestoreLockedMode>
   </PropertyGroup>
   <ItemGroup Condition="'$(IsTestProject)' == 'true'">
     <Using Include="Xunit" />
@@ -24,7 +29,4 @@
     </PackageReference>
     <PackageReference Include="xunit.v3" />
   </ItemGroup>
-  <PropertyGroup Condition="'$(GITHUB_ACTIONS)' == 'true'">
-    <ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>
-  </PropertyGroup>
 </Project>
