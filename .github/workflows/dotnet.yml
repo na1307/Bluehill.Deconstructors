@@ -21,7 +21,7 @@ jobs:
     env:
       NUGET_PACKAGES: ${{ github.workspace }}/.nuget/packages
       OUTPUT_PATH: output
-      NUGETPROJ: '**/*.csproj, !**/*.Tests.csproj'
+      NUGETPROJ: '"**/*.csproj", "!**/*.Tests.csproj"'
     steps:
     - uses: actions/checkout@v4
       with:
