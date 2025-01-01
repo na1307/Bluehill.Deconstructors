@@ -1,26 +1,12 @@
 <Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
   <PropertyGroup>
     <TargetFrameworks>net20;net35;net6.0-windows</TargetFrameworks>
-    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Description>Deconstructors for Windows Forms types.</Description>
     <PackageTags>$(PackageTags);winforms;forms</PackageTags>
     <UseWindowsForms>true</UseWindowsForms>
-    <SignAssembly>True</SignAssembly>
-    <AssemblyOriginatorKeyFile>..\bluehill.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
     <ProjectReference Include="..\Bluehill.Deconstructors.Drawing\Bluehill.Deconstructors.Drawing.csproj" />
-  </ItemGroup>
-  <ItemGroup>
-    <AssemblyAttribute Include="System.CLSCompliantAttribute">
-      <_Parameter1>true</_Parameter1>
-    </AssemblyAttribute>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="README.md">
-      <Pack>True</Pack>
-      <PackagePath>\</PackagePath>
-    </None>
   </ItemGroup>
   <Import Project="..\ExtensionAttribute\ExtensionAttribute.projitems" Label="Shared" />
 </Project>

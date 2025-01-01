@@ -1,25 +1,11 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFrameworks>net46;netstandard2.1</TargetFrameworks>
-    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Description>Deconstructors for Numerics types.</Description>
     <PackageTags>$(PackageTags);numerics;vector;matrix</PackageTags>
-    <SignAssembly>True</SignAssembly>
-    <AssemblyOriginatorKeyFile>..\bluehill.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
     <Using Include="System.Numerics" />
-  </ItemGroup>
-  <ItemGroup>
-    <AssemblyAttribute Include="System.CLSCompliantAttribute">
-      <_Parameter1>true</_Parameter1>
-    </AssemblyAttribute>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="README.md">
-      <Pack>True</Pack>
-      <PackagePath>\</PackagePath>
-    </None>
   </ItemGroup>
   <Import Project="..\ExtensionAttribute\ExtensionAttribute.projitems" Label="Shared" />
 </Project>

@@ -1,27 +1,13 @@
 <Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
   <PropertyGroup>
     <TargetFrameworks>net35;net6.0-windows</TargetFrameworks>
-    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Description>Deconstructors for WPF types.</Description>
     <PackageTags>$(PackageTags);wpf</PackageTags>
     <UseWPF>true</UseWPF>
-    <SignAssembly>True</SignAssembly>
-    <AssemblyOriginatorKeyFile>..\bluehill.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
     <Using Include="System.Windows" />
     <Using Include="System.Windows.Media" />
-  </ItemGroup>
-  <ItemGroup>
-    <AssemblyAttribute Include="System.CLSCompliantAttribute">
-      <_Parameter1>true</_Parameter1>
-    </AssemblyAttribute>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="README.md">
-      <Pack>True</Pack>
-      <PackagePath>\</PackagePath>
-    </None>
   </ItemGroup>
   <Import Project="..\ExtensionAttribute\ExtensionAttribute.projitems" Label="Shared" />
 </Project>
