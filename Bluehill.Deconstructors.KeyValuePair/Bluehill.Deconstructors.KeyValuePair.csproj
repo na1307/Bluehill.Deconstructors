@@ -4,9 +4,6 @@
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Description>Deconstructors for KeyValuePair.</Description>
     <PackageTags>$(PackageTags);keyvaluepair;dictionary;dictionaryentry</PackageTags>
-    <AssemblyVersion>2</AssemblyVersion>
-    <FileVersion>2.3.1</FileVersion>
-    <Version>2.3.1</Version>
     <SignAssembly>True</SignAssembly>
     <AssemblyOriginatorKeyFile>..\bluehill.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>

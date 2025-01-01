@@ -7,9 +7,6 @@
     <NoWarn>$(NoWarn);NU5128</NoWarn>
     <SuppressSymbols>true</SuppressSymbols>
     <Description>Provides Deconstruct methods for several types.</Description>
-    <AssemblyVersion>2</AssemblyVersion>
-    <FileVersion>2.3.1</FileVersion>
-    <Version>2.3.1</Version>
   </PropertyGroup>
   <ItemGroup Condition="'$(TargetFramework)' == 'net20'">
     <ProjectReference Include="..\Bluehill.Deconstructors.List\Bluehill.Deconstructors.List.csproj" />

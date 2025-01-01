@@ -4,9 +4,6 @@
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Description>Deconstructors for Windows Forms types.</Description>
     <PackageTags>$(PackageTags);winforms;forms</PackageTags>
-    <AssemblyVersion>2</AssemblyVersion>
-    <FileVersion>2.3.1</FileVersion>
-    <Version>2.3.1</Version>
     <UseWindowsForms>true</UseWindowsForms>
     <SignAssembly>True</SignAssembly>
     <AssemblyOriginatorKeyFile>..\bluehill.snk</AssemblyOriginatorKeyFile>
