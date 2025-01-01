@@ -1,5 +1,0 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
-  <ItemGroup>
-    <ProjectReference Include="..\Bluehill.Deconstructors.DateTime\Bluehill.Deconstructors.DateTime.csproj" />
-  </ItemGroup>
-</Project>

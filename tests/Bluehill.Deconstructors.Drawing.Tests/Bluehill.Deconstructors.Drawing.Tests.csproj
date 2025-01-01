@@ -3,6 +3,6 @@
     <Using Include="System.Drawing" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Bluehill.Deconstructors.Drawing\Bluehill.Deconstructors.Drawing.csproj" />
+    <ProjectReference Include="..\..\src\Bluehill.Deconstructors.Drawing\Bluehill.Deconstructors.Drawing.csproj" />
   </ItemGroup>
 </Project>

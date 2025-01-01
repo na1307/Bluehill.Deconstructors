@@ -1,0 +1,5 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Bluehill.Deconstructors.Tuple\Bluehill.Deconstructors.Tuple.csproj" />
+  </ItemGroup>
+</Project>

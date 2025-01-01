@@ -3,27 +3,27 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bluehill.Deconstructors", "Bluehill.Deconstructors\Bluehill.Deconstructors.csproj", "{9659D868-31FA-4990-B818-08AD601BDB5B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bluehill.Deconstructors", "src\Bluehill.Deconstructors\Bluehill.Deconstructors.csproj", "{9659D868-31FA-4990-B818-08AD601BDB5B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bluehill.Deconstructors.List", "Bluehill.Deconstructors.List\Bluehill.Deconstructors.List.csproj", "{60197DEA-D3C4-42E9-888D-FF1FCD247CBB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bluehill.Deconstructors.List", "src\Bluehill.Deconstructors.List\Bluehill.Deconstructors.List.csproj", "{60197DEA-D3C4-42E9-888D-FF1FCD247CBB}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bluehill.Deconstructors.KeyValuePair", "Bluehill.Deconstructors.KeyValuePair\Bluehill.Deconstructors.KeyValuePair.csproj", "{6954A641-3338-41D1-8757-B5E031E7A5E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bluehill.Deconstructors.KeyValuePair", "src\Bluehill.Deconstructors.KeyValuePair\Bluehill.Deconstructors.KeyValuePair.csproj", "{6954A641-3338-41D1-8757-B5E031E7A5E9}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bluehill.Deconstructors.Tuple", "Bluehill.Deconstructors.Tuple\Bluehill.Deconstructors.Tuple.csproj", "{159DCB1F-43DC-4E26-A2FD-767B45ABC195}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bluehill.Deconstructors.Tuple", "src\Bluehill.Deconstructors.Tuple\Bluehill.Deconstructors.Tuple.csproj", "{159DCB1F-43DC-4E26-A2FD-767B45ABC195}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bluehill.Deconstructors.Drawing", "Bluehill.Deconstructors.Drawing\Bluehill.Deconstructors.Drawing.csproj", "{995A86E2-648F-4900-89DA-BA4F08261AAA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bluehill.Deconstructors.Drawing", "src\Bluehill.Deconstructors.Drawing\Bluehill.Deconstructors.Drawing.csproj", "{995A86E2-648F-4900-89DA-BA4F08261AAA}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bluehill.Deconstructors.Numerics", "Bluehill.Deconstructors.Numerics\Bluehill.Deconstructors.Numerics.csproj", "{3496D69C-BB48-47FF-9131-3E13FBDA2591}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bluehill.Deconstructors.Numerics", "src\Bluehill.Deconstructors.Numerics\Bluehill.Deconstructors.Numerics.csproj", "{3496D69C-BB48-47FF-9131-3E13FBDA2591}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bluehill.Deconstructors.Forms", "Bluehill.Deconstructors.Forms\Bluehill.Deconstructors.Forms.csproj", "{E52046B9-10AB-483D-B535-4573AF9551B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bluehill.Deconstructors.Forms", "src\Bluehill.Deconstructors.Forms\Bluehill.Deconstructors.Forms.csproj", "{E52046B9-10AB-483D-B535-4573AF9551B1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bluehill.Deconstructors.Wpf", "Bluehill.Deconstructors.Wpf\Bluehill.Deconstructors.Wpf.csproj", "{F8D954C3-8954-4D3B-845B-F294628D8489}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bluehill.Deconstructors.Wpf", "src\Bluehill.Deconstructors.Wpf\Bluehill.Deconstructors.Wpf.csproj", "{F8D954C3-8954-4D3B-845B-F294628D8489}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bluehill.Deconstructors.Version", "Bluehill.Deconstructors.Version\Bluehill.Deconstructors.Version.csproj", "{CBCCEB39-92FE-46B0-86E3-20403FF7684B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bluehill.Deconstructors.Version", "src\Bluehill.Deconstructors.Version\Bluehill.Deconstructors.Version.csproj", "{CBCCEB39-92FE-46B0-86E3-20403FF7684B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bluehill.Deconstructors.DateTime", "Bluehill.Deconstructors.DateTime\Bluehill.Deconstructors.DateTime.csproj", "{156A8160-6777-4738-B044-A87890986940}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bluehill.Deconstructors.DateTime", "src\Bluehill.Deconstructors.DateTime\Bluehill.Deconstructors.DateTime.csproj", "{156A8160-6777-4738-B044-A87890986940}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bluehill.Deconstructors.Span", "Bluehill.Deconstructors.Span\Bluehill.Deconstructors.Span.csproj", "{B1E4F4E8-DA12-4F35-9CF7-A5BCFF032870}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bluehill.Deconstructors.Span", "src\Bluehill.Deconstructors.Span\Bluehill.Deconstructors.Span.csproj", "{B1E4F4E8-DA12-4F35-9CF7-A5BCFF032870}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "솔루션 항목", "솔루션 항목", "{CF78EF3F-0E13-42AB-AC5E-A37348922024}"
 	ProjectSection(SolutionItems) = preProject
@@ -36,27 +36,27 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "솔루션 항목", "솔루�
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "ExtensionAttribute", "ExtensionAttribute\ExtensionAttribute.shproj", "{149D1E4E-9431-430F-BAB3-D7FDECF2A6BE}"
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "ExtensionAttribute", "src\ExtensionAttribute\ExtensionAttribute.shproj", "{149D1E4E-9431-430F-BAB3-D7FDECF2A6BE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bluehill.Deconstructors.List.Tests", "Bluehill.Deconstructors.List.Tests\Bluehill.Deconstructors.List.Tests.csproj", "{2E6E7B04-F991-4626-8C47-FEEB8E9E84A8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bluehill.Deconstructors.List.Tests", "tests\Bluehill.Deconstructors.List.Tests\Bluehill.Deconstructors.List.Tests.csproj", "{2E6E7B04-F991-4626-8C47-FEEB8E9E84A8}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bluehill.Deconstructors.Drawing.Tests", "Bluehill.Deconstructors.Drawing.Tests\Bluehill.Deconstructors.Drawing.Tests.csproj", "{8D7F7185-9E3C-49C9-AA8A-BDF4765EF28F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bluehill.Deconstructors.Drawing.Tests", "tests\Bluehill.Deconstructors.Drawing.Tests\Bluehill.Deconstructors.Drawing.Tests.csproj", "{8D7F7185-9E3C-49C9-AA8A-BDF4765EF28F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bluehill.Deconstructors.Numerics.Tests", "Bluehill.Deconstructors.Numerics.Tests\Bluehill.Deconstructors.Numerics.Tests.csproj", "{884D714B-E432-492F-81A9-9DE5A28C15AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bluehill.Deconstructors.Numerics.Tests", "tests\Bluehill.Deconstructors.Numerics.Tests\Bluehill.Deconstructors.Numerics.Tests.csproj", "{884D714B-E432-492F-81A9-9DE5A28C15AC}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bluehill.Deconstructors.Forms.Tests", "Bluehill.Deconstructors.Forms.Tests\Bluehill.Deconstructors.Forms.Tests.csproj", "{40C0838E-9BE4-4CAE-8500-A95F18E1A707}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bluehill.Deconstructors.Forms.Tests", "tests\Bluehill.Deconstructors.Forms.Tests\Bluehill.Deconstructors.Forms.Tests.csproj", "{40C0838E-9BE4-4CAE-8500-A95F18E1A707}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bluehill.Deconstructors.Wpf.Tests", "Bluehill.Deconstructors.Wpf.Tests\Bluehill.Deconstructors.Wpf.Tests.csproj", "{19CD5A07-CF79-40CE-9E45-57321399E843}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bluehill.Deconstructors.Wpf.Tests", "tests\Bluehill.Deconstructors.Wpf.Tests\Bluehill.Deconstructors.Wpf.Tests.csproj", "{19CD5A07-CF79-40CE-9E45-57321399E843}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bluehill.Deconstructors.KeyValuePair.Tests", "Bluehill.Deconstructors.KeyValuePair.Tests\Bluehill.Deconstructors.KeyValuePair.Tests.csproj", "{2DACB48B-2F98-45E6-85BB-2421216AE133}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bluehill.Deconstructors.KeyValuePair.Tests", "tests\Bluehill.Deconstructors.KeyValuePair.Tests\Bluehill.Deconstructors.KeyValuePair.Tests.csproj", "{2DACB48B-2F98-45E6-85BB-2421216AE133}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bluehill.Deconstructors.Tuple.Tests", "Bluehill.Deconstructors.Tuple.Tests\Bluehill.Deconstructors.Tuple.Tests.csproj", "{143572EA-8104-4C2A-82DA-B9365DE609BF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bluehill.Deconstructors.Tuple.Tests", "tests\Bluehill.Deconstructors.Tuple.Tests\Bluehill.Deconstructors.Tuple.Tests.csproj", "{143572EA-8104-4C2A-82DA-B9365DE609BF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bluehill.Deconstructors.Version.Tests", "Bluehill.Deconstructors.Version.Tests\Bluehill.Deconstructors.Version.Tests.csproj", "{01775CD6-1561-4423-BEF7-9CAFB446A8D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bluehill.Deconstructors.Version.Tests", "tests\Bluehill.Deconstructors.Version.Tests\Bluehill.Deconstructors.Version.Tests.csproj", "{01775CD6-1561-4423-BEF7-9CAFB446A8D4}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bluehill.Deconstructors.DateTime.Tests", "Bluehill.Deconstructors.DateTime.Tests\Bluehill.Deconstructors.DateTime.Tests.csproj", "{DB3C47F7-7DA9-44AE-A9BB-FDB998C823D1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bluehill.Deconstructors.DateTime.Tests", "tests\Bluehill.Deconstructors.DateTime.Tests\Bluehill.Deconstructors.DateTime.Tests.csproj", "{DB3C47F7-7DA9-44AE-A9BB-FDB998C823D1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bluehill.Deconstructors.Span.Tests", "Bluehill.Deconstructors.Span.Tests\Bluehill.Deconstructors.Span.Tests.csproj", "{F0B23EFE-F673-49A6-8817-1F7F5C12CC58}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bluehill.Deconstructors.Span.Tests", "tests\Bluehill.Deconstructors.Span.Tests\Bluehill.Deconstructors.Span.Tests.csproj", "{F0B23EFE-F673-49A6-8817-1F7F5C12CC58}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -156,16 +156,16 @@ Global
 		SolutionGuid = {DC0B4236-25F2-4CA8-B230-FD6F7D936D83}
 	EndGlobalSection
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
-		ExtensionAttribute\ExtensionAttribute.projitems*{149d1e4e-9431-430f-bab3-d7fdecf2a6be}*SharedItemsImports = 13
-		ExtensionAttribute\ExtensionAttribute.projitems*{156a8160-6777-4738-b044-a87890986940}*SharedItemsImports = 5
-		ExtensionAttribute\ExtensionAttribute.projitems*{159dcb1f-43dc-4e26-a2fd-767b45abc195}*SharedItemsImports = 5
-		ExtensionAttribute\ExtensionAttribute.projitems*{3496d69c-bb48-47ff-9131-3e13fbda2591}*SharedItemsImports = 5
-		ExtensionAttribute\ExtensionAttribute.projitems*{60197dea-d3c4-42e9-888d-ff1fcd247cbb}*SharedItemsImports = 5
-		ExtensionAttribute\ExtensionAttribute.projitems*{6954a641-3338-41d1-8757-b5e031e7a5e9}*SharedItemsImports = 5
-		ExtensionAttribute\ExtensionAttribute.projitems*{995a86e2-648f-4900-89da-ba4f08261aaa}*SharedItemsImports = 5
-		ExtensionAttribute\ExtensionAttribute.projitems*{b1e4f4e8-da12-4f35-9cf7-a5bcff032870}*SharedItemsImports = 5
-		ExtensionAttribute\ExtensionAttribute.projitems*{cbcceb39-92fe-46b0-86e3-20403ff7684b}*SharedItemsImports = 5
-		ExtensionAttribute\ExtensionAttribute.projitems*{e52046b9-10ab-483d-b535-4573af9551b1}*SharedItemsImports = 5
-		ExtensionAttribute\ExtensionAttribute.projitems*{f8d954c3-8954-4d3b-845b-f294628d8489}*SharedItemsImports = 5
+		src\ExtensionAttribute\ExtensionAttribute.projitems*{149d1e4e-9431-430f-bab3-d7fdecf2a6be}*SharedItemsImports = 13
+		src\ExtensionAttribute\ExtensionAttribute.projitems*{156a8160-6777-4738-b044-a87890986940}*SharedItemsImports = 5
+		src\ExtensionAttribute\ExtensionAttribute.projitems*{159dcb1f-43dc-4e26-a2fd-767b45abc195}*SharedItemsImports = 5
+		src\ExtensionAttribute\ExtensionAttribute.projitems*{3496d69c-bb48-47ff-9131-3e13fbda2591}*SharedItemsImports = 5
+		src\ExtensionAttribute\ExtensionAttribute.projitems*{60197dea-d3c4-42e9-888d-ff1fcd247cbb}*SharedItemsImports = 5
+		src\ExtensionAttribute\ExtensionAttribute.projitems*{6954a641-3338-41d1-8757-b5e031e7a5e9}*SharedItemsImports = 5
+		src\ExtensionAttribute\ExtensionAttribute.projitems*{995a86e2-648f-4900-89da-ba4f08261aaa}*SharedItemsImports = 5
+		src\ExtensionAttribute\ExtensionAttribute.projitems*{b1e4f4e8-da12-4f35-9cf7-a5bcff032870}*SharedItemsImports = 5
+		src\ExtensionAttribute\ExtensionAttribute.projitems*{cbcceb39-92fe-46b0-86e3-20403ff7684b}*SharedItemsImports = 5
+		src\ExtensionAttribute\ExtensionAttribute.projitems*{e52046b9-10ab-483d-b535-4573af9551b1}*SharedItemsImports = 5
+		src\ExtensionAttribute\ExtensionAttribute.projitems*{f8d954c3-8954-4d3b-845b-f294628d8489}*SharedItemsImports = 5
 	EndGlobalSection
 EndGlobal

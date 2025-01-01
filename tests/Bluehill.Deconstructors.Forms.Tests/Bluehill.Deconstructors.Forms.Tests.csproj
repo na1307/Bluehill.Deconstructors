@@ -8,6 +8,6 @@
     <Using Include="System.Drawing" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Bluehill.Deconstructors.Forms\Bluehill.Deconstructors.Forms.csproj" />
+    <ProjectReference Include="..\..\src\Bluehill.Deconstructors.Forms\Bluehill.Deconstructors.Forms.csproj" />
   </ItemGroup>
 </Project>

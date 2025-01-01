@@ -3,6 +3,6 @@
     <Using Include="System.Numerics" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Bluehill.Deconstructors.Numerics\Bluehill.Deconstructors.Numerics.csproj" />
+    <ProjectReference Include="..\..\src\Bluehill.Deconstructors.Numerics\Bluehill.Deconstructors.Numerics.csproj" />
   </ItemGroup>
 </Project>

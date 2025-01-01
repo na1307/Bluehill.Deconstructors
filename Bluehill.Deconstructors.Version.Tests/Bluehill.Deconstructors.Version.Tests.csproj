@@ -1,5 +1,0 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
-  <ItemGroup>
-    <ProjectReference Include="..\Bluehill.Deconstructors.Version\Bluehill.Deconstructors.Version.csproj" />
-  </ItemGroup>
-</Project>
