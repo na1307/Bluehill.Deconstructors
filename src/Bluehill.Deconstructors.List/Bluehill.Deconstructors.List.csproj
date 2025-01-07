@@ -7,7 +7,7 @@
     <CompilerGeneratedFilesOutputPath>.</CompilerGeneratedFilesOutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <!--<ProjectReference Include="..\Bluehill.Deconstructors.List.SG\Bluehill.Deconstructors.List.SG.csproj" Condition="'$(TargetFramework)' == 'netstandard2.1'" OutputItemType="Analyzer" ReferenceOutputAssembly="false" />-->
+    <!--<ProjectReference Include="..\Bluehill.Deconstructors.SG\Bluehill.Deconstructors.SG.csproj" Condition="'$(TargetFramework)' == 'netstandard2.1'" OutputItemType="Analyzer" ReferenceOutputAssembly="false" />-->
   </ItemGroup>
   <Import Project="..\ExtensionAttribute\ExtensionAttribute.projitems" Label="Shared" />
 </Project>
