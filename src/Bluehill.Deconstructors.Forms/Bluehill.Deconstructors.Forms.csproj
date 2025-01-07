@@ -5,8 +5,5 @@
     <PackageTags>$(PackageTags);winforms;forms</PackageTags>
     <UseWindowsForms>true</UseWindowsForms>
   </PropertyGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Bluehill.Deconstructors.Drawing\Bluehill.Deconstructors.Drawing.csproj" />
-  </ItemGroup>
   <Import Project="..\ExtensionAttribute\ExtensionAttribute.projitems" Label="Shared" />
 </Project>
