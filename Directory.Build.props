@@ -8,8 +8,8 @@
     <PackageReleaseNotes>https://na1307.github.io/Bluehill.Deconstructors/CHANGELOG.html</PackageReleaseNotes>
     <RepositoryUrl>https://github.com/na1307/Bluehill.Deconstructors</RepositoryUrl>
     <AssemblyVersion>2</AssemblyVersion>
-    <FileVersion>2.3.1</FileVersion>
-    <Version>2.3.1</Version>
+    <FileVersion>2.4.0</FileVersion>
+    <Version>2.4</Version>
   </PropertyGroup>
   <PropertyGroup Condition="'$(GITHUB_ACTIONS)' == 'true'">
     <ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>
