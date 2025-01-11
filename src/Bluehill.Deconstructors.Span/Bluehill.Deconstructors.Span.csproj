@@ -3,6 +3,8 @@
     <TargetFrameworks>netstandard2.1</TargetFrameworks>
     <Description>Deconstructors for Span and ReadOnlySpan.</Description>
     <PackageTags>$(PackageTags);span;readonlyspan</PackageTags>
+    <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
+    <RestoreLockedMode Condition="'$(ContinuousIntegrationBuild)' == 'true'">true</RestoreLockedMode>
   </PropertyGroup>
   <Import Project="..\ExtensionAttribute\ExtensionAttribute.projitems" Label="Shared" />
 </Project>

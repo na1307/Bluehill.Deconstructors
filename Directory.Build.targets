@@ -1,20 +1,13 @@
 <Project>
-  <PropertyGroup>
-    <NoWarn>$(NoWarn);S107;S2436</NoWarn>
-  </PropertyGroup>
   <PropertyGroup Condition="'$(GeneratePackageOnBuild)' == 'true'">
     <IncludeSymbols Condition="'$(SuppressSymbols)' != 'true'">true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
     <EmbedUntrackedSources>true</EmbedUntrackedSources>
     <EnablePackageValidation>true</EnablePackageValidation>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(IsTestProject)' != 'true'">
-    <RootNamespace>Bluehill.Deconstructors</RootNamespace>
-  </PropertyGroup>
   <ItemGroup>
     <Using Include="System.ComponentModel" />
     <Using Remove="System.Linq" />
-    <Using Remove="System.Net.Http" />
     <Using Remove="System.Threading.Tasks" />
   </ItemGroup>
 </Project>

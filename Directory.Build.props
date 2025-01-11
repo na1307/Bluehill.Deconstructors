@@ -1,5 +1,6 @@
 <Project>
   <PropertyGroup>
+    <NoWarn>$(NoWarn);S107;S2436</NoWarn>
     <Product>Bluehill.Deconstructors</Product>
     <PackageProjectUrl>https://na1307.github.io/Bluehill.Deconstructors</PackageProjectUrl>
     <PackageTags>deconstructor;deconstruct;na1307;bluehill</PackageTags>
@@ -24,6 +25,7 @@
     <RestoreLockedMode Condition="'$(ContinuousIntegrationBuild)' == 'true'">true</RestoreLockedMode>
   </PropertyGroup>
   <PropertyGroup Condition="'$(IsTestProject)' != 'true'">
+    <RootNamespace>Bluehill.Deconstructors</RootNamespace>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <SignAssembly>True</SignAssembly>
     <AssemblyOriginatorKeyFile>..\bluehill.snk</AssemblyOriginatorKeyFile>
