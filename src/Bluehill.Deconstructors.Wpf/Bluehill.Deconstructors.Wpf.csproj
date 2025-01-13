@@ -1,6 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFrameworks>net35;net6.0-windows</TargetFrameworks>
+    <TargetFrameworks>net35;net8.0-windows</TargetFrameworks>
     <Description>Deconstructors for WPF types.</Description>
     <PackageTags>$(PackageTags);wpf</PackageTags>
     <UseWPF>true</UseWPF>

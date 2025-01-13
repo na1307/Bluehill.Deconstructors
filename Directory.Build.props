@@ -27,6 +27,7 @@
   <PropertyGroup Condition="'$(IsTestProject)' != 'true'">
     <RootNamespace>Bluehill.Deconstructors</RootNamespace>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <ApiCompatGenerateSuppressionFile>true</ApiCompatGenerateSuppressionFile>
     <SignAssembly>True</SignAssembly>
     <AssemblyOriginatorKeyFile>..\bluehill.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>

@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFrameworks>net20;net35;net40;net46;net47;netstandard2.1;net6.0-windows</TargetFrameworks>
+    <TargetFrameworks>net20;net35;net40;net46;net47;netstandard2.0;netstandard2.1;net8.0-windows</TargetFrameworks>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <IncludeBuildOutput>false</IncludeBuildOutput>
     <ImplicitUsings>disable</ImplicitUsings>
@@ -56,6 +56,13 @@
     <ProjectReference Include="..\Bluehill.Deconstructors.Version\Bluehill.Deconstructors.Version.csproj" />
     <ProjectReference Include="..\Bluehill.Deconstructors.DateTime\Bluehill.Deconstructors.DateTime.csproj" />
   </ItemGroup>
+  <ItemGroup Condition="'$(TargetFramework)' == 'netstandard2.0'">
+    <ProjectReference Include="..\Bluehill.Deconstructors.List\Bluehill.Deconstructors.List.csproj" />
+    <ProjectReference Include="..\Bluehill.Deconstructors.KeyValuePair\Bluehill.Deconstructors.KeyValuePair.csproj" />
+    <ProjectReference Include="..\Bluehill.Deconstructors.Drawing\Bluehill.Deconstructors.Drawing.csproj" />
+    <ProjectReference Include="..\Bluehill.Deconstructors.Version\Bluehill.Deconstructors.Version.csproj" />
+    <ProjectReference Include="..\Bluehill.Deconstructors.DateTime\Bluehill.Deconstructors.DateTime.csproj" />
+  </ItemGroup>
   <ItemGroup Condition="'$(TargetFramework)' == 'netstandard2.1'">
     <ProjectReference Include="..\Bluehill.Deconstructors.List\Bluehill.Deconstructors.List.csproj" />
     <ProjectReference Include="..\Bluehill.Deconstructors.Drawing\Bluehill.Deconstructors.Drawing.csproj" />
@@ -64,7 +71,7 @@
     <ProjectReference Include="..\Bluehill.Deconstructors.DateTime\Bluehill.Deconstructors.DateTime.csproj" />
     <ProjectReference Include="..\Bluehill.Deconstructors.Span\Bluehill.Deconstructors.Span.csproj" />
   </ItemGroup>
-  <ItemGroup Condition="'$(TargetFramework)' == 'net6.0-windows'">
+  <ItemGroup Condition="'$(TargetFramework)' == 'net8.0-windows'">
     <ProjectReference Include="..\Bluehill.Deconstructors.List\Bluehill.Deconstructors.List.csproj" />
     <ProjectReference Include="..\Bluehill.Deconstructors.Drawing\Bluehill.Deconstructors.Drawing.csproj" />
     <ProjectReference Include="..\Bluehill.Deconstructors.Numerics\Bluehill.Deconstructors.Numerics.csproj" />

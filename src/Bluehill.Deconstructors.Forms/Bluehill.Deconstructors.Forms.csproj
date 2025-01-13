@@ -1,6 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFrameworks>net20;net35;net6.0-windows</TargetFrameworks>
+    <TargetFrameworks>net20;net35;net8.0-windows</TargetFrameworks>
     <Description>Deconstructors for Windows Forms types.</Description>
     <PackageTags>$(PackageTags);winforms;forms</PackageTags>
     <UseWindowsForms>true</UseWindowsForms>
