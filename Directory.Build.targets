@@ -5,9 +5,4 @@
     <EmbedUntrackedSources>true</EmbedUntrackedSources>
     <EnablePackageValidation>true</EnablePackageValidation>
   </PropertyGroup>
-  <ItemGroup>
-    <Using Include="System.ComponentModel" />
-    <Using Remove="System.Linq" />
-    <Using Remove="System.Threading.Tasks" />
-  </ItemGroup>
 </Project>
