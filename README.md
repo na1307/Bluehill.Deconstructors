@@ -23,7 +23,7 @@ using Bluehill.Deconstructors;
 ```
 
 ## Supported types
-1. IList (Array, List, etc.) (Up to 15 items)
+1. IList (Array, List, etc.) (Up to 30 items)
 1. Reference Tuple (System.Tuple) (Up to 21 items)
 1. KeyValuePair
 1. Drawing Types
@@ -50,7 +50,7 @@ using Bluehill.Deconstructors;
    1. DateOnly
    1. TimeOnly
    1. DateTimeOffset
-1. Span
+1. Span (Up to 30 items)
    1. Span
    1. ReadOnlySpan
 

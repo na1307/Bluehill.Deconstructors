@@ -1,6 +1,19 @@
 # Changelog
 [Back](README.md)
 
+## 3.0.1 (2025-01-13)
+1. Add .NET Standard 2.0 support
+    * It is now easily referenced in the .NET Standard 2.0 library.
+1. Drop .NET 6 and 7 support
+
+## 3.0 (2025-01-07)
+1. FormsDecontructors no longer dependent on DrawingDeconstructors
+1. Fix VersionDecontructors Namespace
+1. List, Span expanded to a maximum of 30 items
+
+## 2.3 / 2.3.1 (2024-05-15)
+1. Enable SourceLink
+
 ## 2.2 (2024-01-05)
 1. Add Span
 
