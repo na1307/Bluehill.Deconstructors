@@ -1,24 +1,24 @@
 ﻿namespace Bluehill.Deconstructors.Span.Tests;
 
 public sealed class SpanDeconstructorsTest {
-    private static readonly int[] array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
+    private static readonly int[] Array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
 
     [Fact]
     public void DeconstructTest1() {
-        ((Span<int>)array).Deconstruct(out var one);
+        ((Span<int>)Array).Deconstruct(out var one);
         Assert.Equal(1, one);
     }
 
     [Fact]
     public void DeconstructTest2() {
-        var (one, two) = (Span<int>)array;
+        var (one, two) = (Span<int>)Array;
         Assert.Equal(1, one);
         Assert.Equal(2, two);
     }
 
     [Fact]
     public void DeconstructTest3() {
-        var (one, two, three) = (Span<int>)array;
+        var (one, two, three) = (Span<int>)Array;
         Assert.Equal(1, one);
         Assert.Equal(2, two);
         Assert.Equal(3, three);
@@ -26,7 +26,7 @@ public sealed class SpanDeconstructorsTest {
 
     [Fact]
     public void DeconstructTest4() {
-        var (one, two, three, four) = (Span<int>)array;
+        var (one, two, three, four) = (Span<int>)Array;
         Assert.Equal(1, one);
         Assert.Equal(2, two);
         Assert.Equal(3, three);
@@ -35,7 +35,7 @@ public sealed class SpanDeconstructorsTest {
 
     [Fact]
     public void DeconstructTest5() {
-        var (one, two, three, four, five) = (Span<int>)array;
+        var (one, two, three, four, five) = (Span<int>)Array;
         Assert.Equal(1, one);
         Assert.Equal(2, two);
         Assert.Equal(3, three);
@@ -45,7 +45,7 @@ public sealed class SpanDeconstructorsTest {
 
     [Fact]
     public void DeconstructTest6() {
-        var (one, two, three, four, five, six) = (Span<int>)array;
+        var (one, two, three, four, five, six) = (Span<int>)Array;
         Assert.Equal(1, one);
         Assert.Equal(2, two);
         Assert.Equal(3, three);
@@ -56,7 +56,7 @@ public sealed class SpanDeconstructorsTest {
 
     [Fact]
     public void DeconstructTest7() {
-        var (one, two, three, four, five, six, seven) = (Span<int>)array;
+        var (one, two, three, four, five, six, seven) = (Span<int>)Array;
         Assert.Equal(1, one);
         Assert.Equal(2, two);
         Assert.Equal(3, three);
@@ -68,7 +68,7 @@ public sealed class SpanDeconstructorsTest {
 
     [Fact]
     public void DeconstructTest8() {
-        var (one, two, three, four, five, six, seven, eight) = (Span<int>)array;
+        var (one, two, three, four, five, six, seven, eight) = (Span<int>)Array;
         Assert.Equal(1, one);
         Assert.Equal(2, two);
         Assert.Equal(3, three);
@@ -81,7 +81,7 @@ public sealed class SpanDeconstructorsTest {
 
     [Fact]
     public void DeconstructTest9() {
-        var (one, two, three, four, five, six, seven, eight, nine) = (Span<int>)array;
+        var (one, two, three, four, five, six, seven, eight, nine) = (Span<int>)Array;
         Assert.Equal(1, one);
         Assert.Equal(2, two);
         Assert.Equal(3, three);
@@ -95,7 +95,7 @@ public sealed class SpanDeconstructorsTest {
 
     [Fact]
     public void DeconstructTest10() {
-        var (one, two, three, four, five, six, seven, eight, nine, ten) = (Span<int>)array;
+        var (one, two, three, four, five, six, seven, eight, nine, ten) = (Span<int>)Array;
         Assert.Equal(1, one);
         Assert.Equal(2, two);
         Assert.Equal(3, three);
@@ -110,7 +110,7 @@ public sealed class SpanDeconstructorsTest {
 
     [Fact]
     public void DeconstructTest11() {
-        var (one, two, three, four, five, six, seven, eight, nine, ten, eleven) = (Span<int>)array;
+        var (one, two, three, four, five, six, seven, eight, nine, ten, eleven) = (Span<int>)Array;
         Assert.Equal(1, one);
         Assert.Equal(2, two);
         Assert.Equal(3, three);
@@ -126,7 +126,7 @@ public sealed class SpanDeconstructorsTest {
 
     [Fact]
     public void DeconstructTest12() {
-        var (one, two, three, four, five, six, seven, eight, nine, ten, eleven, twelve) = (Span<int>)array;
+        var (one, two, three, four, five, six, seven, eight, nine, ten, eleven, twelve) = (Span<int>)Array;
         Assert.Equal(1, one);
         Assert.Equal(2, two);
         Assert.Equal(3, three);
@@ -143,7 +143,7 @@ public sealed class SpanDeconstructorsTest {
 
     [Fact]
     public void DeconstructTest13() {
-        var (one, two, three, four, five, six, seven, eight, nine, ten, eleven, twelve, thirteen) = (Span<int>)array;
+        var (one, two, three, four, five, six, seven, eight, nine, ten, eleven, twelve, thirteen) = (Span<int>)Array;
         Assert.Equal(1, one);
         Assert.Equal(2, two);
         Assert.Equal(3, three);
@@ -161,7 +161,7 @@ public sealed class SpanDeconstructorsTest {
 
     [Fact]
     public void DeconstructTest14() {
-        var (one, two, three, four, five, six, seven, eight, nine, ten, eleven, twelve, thirteen, fourteen) = (Span<int>)array;
+        var (one, two, three, four, five, six, seven, eight, nine, ten, eleven, twelve, thirteen, fourteen) = (Span<int>)Array;
         Assert.Equal(1, one);
         Assert.Equal(2, two);
         Assert.Equal(3, three);
@@ -180,7 +180,7 @@ public sealed class SpanDeconstructorsTest {
 
     [Fact]
     public void DeconstructTest15() {
-        var (one, two, three, four, five, six, seven, eight, nine, ten, eleven, twelve, thirteen, fourteen, fifteen) = (Span<int>)array;
+        var (one, two, three, four, five, six, seven, eight, nine, ten, eleven, twelve, thirteen, fourteen, fifteen) = (Span<int>)Array;
         Assert.Equal(1, one);
         Assert.Equal(2, two);
         Assert.Equal(3, three);
@@ -200,20 +200,20 @@ public sealed class SpanDeconstructorsTest {
 
     [Fact]
     public void DeconstructTest16() {
-        ((ReadOnlySpan<int>)array).Deconstruct(out var one);
+        ((ReadOnlySpan<int>)Array).Deconstruct(out var one);
         Assert.Equal(1, one);
     }
 
     [Fact]
     public void DeconstructTest17() {
-        var (one, two) = (ReadOnlySpan<int>)array;
+        var (one, two) = (ReadOnlySpan<int>)Array;
         Assert.Equal(1, one);
         Assert.Equal(2, two);
     }
 
     [Fact]
     public void DeconstructTest18() {
-        var (one, two, three) = (ReadOnlySpan<int>)array;
+        var (one, two, three) = (ReadOnlySpan<int>)Array;
         Assert.Equal(1, one);
         Assert.Equal(2, two);
         Assert.Equal(3, three);
@@ -221,7 +221,7 @@ public sealed class SpanDeconstructorsTest {
 
     [Fact]
     public void DeconstructTest19() {
-        var (one, two, three, four) = (ReadOnlySpan<int>)array;
+        var (one, two, three, four) = (ReadOnlySpan<int>)Array;
         Assert.Equal(1, one);
         Assert.Equal(2, two);
         Assert.Equal(3, three);
@@ -230,7 +230,7 @@ public sealed class SpanDeconstructorsTest {
 
     [Fact]
     public void DeconstructTest20() {
-        var (one, two, three, four, five) = (ReadOnlySpan<int>)array;
+        var (one, two, three, four, five) = (ReadOnlySpan<int>)Array;
         Assert.Equal(1, one);
         Assert.Equal(2, two);
         Assert.Equal(3, three);
@@ -240,7 +240,7 @@ public sealed class SpanDeconstructorsTest {
 
     [Fact]
     public void DeconstructTest21() {
-        var (one, two, three, four, five, six) = (ReadOnlySpan<int>)array;
+        var (one, two, three, four, five, six) = (ReadOnlySpan<int>)Array;
         Assert.Equal(1, one);
         Assert.Equal(2, two);
         Assert.Equal(3, three);
@@ -251,7 +251,7 @@ public sealed class SpanDeconstructorsTest {
 
     [Fact]
     public void DeconstructTest22() {
-        var (one, two, three, four, five, six, seven) = (ReadOnlySpan<int>)array;
+        var (one, two, three, four, five, six, seven) = (ReadOnlySpan<int>)Array;
         Assert.Equal(1, one);
         Assert.Equal(2, two);
         Assert.Equal(3, three);
@@ -263,7 +263,7 @@ public sealed class SpanDeconstructorsTest {
 
     [Fact]
     public void DeconstructTest23() {
-        var (one, two, three, four, five, six, seven, eight) = (ReadOnlySpan<int>)array;
+        var (one, two, three, four, five, six, seven, eight) = (ReadOnlySpan<int>)Array;
         Assert.Equal(1, one);
         Assert.Equal(2, two);
         Assert.Equal(3, three);
@@ -276,7 +276,7 @@ public sealed class SpanDeconstructorsTest {
 
     [Fact]
     public void DeconstructTest24() {
-        var (one, two, three, four, five, six, seven, eight, nine) = (ReadOnlySpan<int>)array;
+        var (one, two, three, four, five, six, seven, eight, nine) = (ReadOnlySpan<int>)Array;
         Assert.Equal(1, one);
         Assert.Equal(2, two);
         Assert.Equal(3, three);
@@ -290,7 +290,7 @@ public sealed class SpanDeconstructorsTest {
 
     [Fact]
     public void DeconstructTest25() {
-        var (one, two, three, four, five, six, seven, eight, nine, ten) = (ReadOnlySpan<int>)array;
+        var (one, two, three, four, five, six, seven, eight, nine, ten) = (ReadOnlySpan<int>)Array;
         Assert.Equal(1, one);
         Assert.Equal(2, two);
         Assert.Equal(3, three);
@@ -305,7 +305,7 @@ public sealed class SpanDeconstructorsTest {
 
     [Fact]
     public void DeconstructTest26() {
-        var (one, two, three, four, five, six, seven, eight, nine, ten, eleven) = (ReadOnlySpan<int>)array;
+        var (one, two, three, four, five, six, seven, eight, nine, ten, eleven) = (ReadOnlySpan<int>)Array;
         Assert.Equal(1, one);
         Assert.Equal(2, two);
         Assert.Equal(3, three);
@@ -321,7 +321,7 @@ public sealed class SpanDeconstructorsTest {
 
     [Fact]
     public void DeconstructTest27() {
-        var (one, two, three, four, five, six, seven, eight, nine, ten, eleven, twelve) = (ReadOnlySpan<int>)array;
+        var (one, two, three, four, five, six, seven, eight, nine, ten, eleven, twelve) = (ReadOnlySpan<int>)Array;
         Assert.Equal(1, one);
         Assert.Equal(2, two);
         Assert.Equal(3, three);
@@ -338,7 +338,7 @@ public sealed class SpanDeconstructorsTest {
 
     [Fact]
     public void DeconstructTest28() {
-        var (one, two, three, four, five, six, seven, eight, nine, ten, eleven, twelve, thirteen) = (ReadOnlySpan<int>)array;
+        var (one, two, three, four, five, six, seven, eight, nine, ten, eleven, twelve, thirteen) = (ReadOnlySpan<int>)Array;
         Assert.Equal(1, one);
         Assert.Equal(2, two);
         Assert.Equal(3, three);
@@ -356,7 +356,7 @@ public sealed class SpanDeconstructorsTest {
 
     [Fact]
     public void DeconstructTest29() {
-        var (one, two, three, four, five, six, seven, eight, nine, ten, eleven, twelve, thirteen, fourteen) = (ReadOnlySpan<int>)array;
+        var (one, two, three, four, five, six, seven, eight, nine, ten, eleven, twelve, thirteen, fourteen) = (ReadOnlySpan<int>)Array;
         Assert.Equal(1, one);
         Assert.Equal(2, two);
         Assert.Equal(3, three);
@@ -375,7 +375,7 @@ public sealed class SpanDeconstructorsTest {
 
     [Fact]
     public void DeconstructTest30() {
-        var (one, two, three, four, five, six, seven, eight, nine, ten, eleven, twelve, thirteen, fourteen, fifteen) = (ReadOnlySpan<int>)array;
+        var (one, two, three, four, five, six, seven, eight, nine, ten, eleven, twelve, thirteen, fourteen, fifteen) = (ReadOnlySpan<int>)Array;
         Assert.Equal(1, one);
         Assert.Equal(2, two);
         Assert.Equal(3, three);

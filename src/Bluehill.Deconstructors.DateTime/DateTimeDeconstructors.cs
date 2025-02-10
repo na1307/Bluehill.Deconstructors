@@ -54,7 +54,7 @@ public static class DateTimeDeconstructors {
 #if NET7_0_OR_GREATER
         microsecond = dateTime.Microsecond;
 #else
-        microsecond = (int)Math.Floor(dateTime.Ticks % TimeSpan.TicksPerMillisecond / (double)10);
+        microsecond = (int)Math.Floor(dateTime.Ticks % TimeSpan.TicksPerMillisecond / 10d);
 #endif
     }
 
@@ -70,7 +70,7 @@ public static class DateTimeDeconstructors {
         microsecond = dateTime.Microsecond;
         nanosecond = dateTime.Nanosecond;
 #else
-        microsecond = (int)Math.Floor(dateTime.Ticks % TimeSpan.TicksPerMillisecond / (double)10);
+        microsecond = (int)Math.Floor(dateTime.Ticks % TimeSpan.TicksPerMillisecond / 10d);
         nanosecond = (int)(dateTime.Ticks % TimeSpan.TicksPerMillisecond % 10) * 100;
 #endif
     }
@@ -109,7 +109,7 @@ public static class DateTimeDeconstructors {
 #if NET7_0_OR_GREATER
         microsecond = time.Microsecond;
 #else
-        microsecond = (int)Math.Floor(time.Ticks % TimeSpan.TicksPerMillisecond / (double)10);
+        microsecond = (int)Math.Floor(time.Ticks % TimeSpan.TicksPerMillisecond / 10d);
 #endif
     }
 
@@ -123,7 +123,7 @@ public static class DateTimeDeconstructors {
         microsecond = time.Microsecond;
         nanosecond = time.Nanosecond;
 #else
-        microsecond = (int)Math.Floor(time.Ticks % TimeSpan.TicksPerMillisecond / (double)10);
+        microsecond = (int)Math.Floor(time.Ticks % TimeSpan.TicksPerMillisecond / 10d);
         nanosecond = (int)(time.Ticks % TimeSpan.TicksPerMillisecond % 10) * 100;
 #endif
     }

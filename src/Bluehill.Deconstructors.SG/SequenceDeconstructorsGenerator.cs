@@ -52,7 +52,7 @@ public abstract class SequenceDeconstructorsGenerator : IIncrementalGenerator {
                     """);
             }
 
-            sourceCode.AppendLine("}");
+            sourceCode.AppendLine("}").AppendLine();
 
             c.AddSource($"{sequenceType}Deconstructors.g.cs", SourceText.From(sourceCode.ToString(), Encoding.UTF8));
         });

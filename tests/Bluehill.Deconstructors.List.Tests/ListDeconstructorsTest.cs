@@ -1,24 +1,24 @@
 ﻿namespace Bluehill.Deconstructors.List.Tests;
 
 public sealed class ListDeconstructorsTest {
-    private static readonly int[] array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
+    private static readonly int[] Array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
 
     [Fact]
     public void DeconstructTest1() {
-        array.Deconstruct(out var one);
+        Array.Deconstruct(out var one);
         Assert.Equal(1, one);
     }
 
     [Fact]
     public void DeconstructTest2() {
-        var (one, two) = array;
+        var (one, two) = Array;
         Assert.Equal(1, one);
         Assert.Equal(2, two);
     }
 
     [Fact]
     public void DeconstructTest3() {
-        var (one, two, three) = array;
+        var (one, two, three) = Array;
         Assert.Equal(1, one);
         Assert.Equal(2, two);
         Assert.Equal(3, three);
@@ -26,7 +26,7 @@ public sealed class ListDeconstructorsTest {
 
     [Fact]
     public void DeconstructTest4() {
-        var (one, two, three, four) = array;
+        var (one, two, three, four) = Array;
         Assert.Equal(1, one);
         Assert.Equal(2, two);
         Assert.Equal(3, three);
@@ -35,7 +35,7 @@ public sealed class ListDeconstructorsTest {
 
     [Fact]
     public void DeconstructTest5() {
-        var (one, two, three, four, five) = array;
+        var (one, two, three, four, five) = Array;
         Assert.Equal(1, one);
         Assert.Equal(2, two);
         Assert.Equal(3, three);
@@ -45,7 +45,7 @@ public sealed class ListDeconstructorsTest {
 
     [Fact]
     public void DeconstructTest6() {
-        var (one, two, three, four, five, six) = array;
+        var (one, two, three, four, five, six) = Array;
         Assert.Equal(1, one);
         Assert.Equal(2, two);
         Assert.Equal(3, three);
@@ -56,7 +56,7 @@ public sealed class ListDeconstructorsTest {
 
     [Fact]
     public void DeconstructTest7() {
-        var (one, two, three, four, five, six, seven) = array;
+        var (one, two, three, four, five, six, seven) = Array;
         Assert.Equal(1, one);
         Assert.Equal(2, two);
         Assert.Equal(3, three);
@@ -68,7 +68,7 @@ public sealed class ListDeconstructorsTest {
 
     [Fact]
     public void DeconstructTest8() {
-        var (one, two, three, four, five, six, seven, eight) = array;
+        var (one, two, three, four, five, six, seven, eight) = Array;
         Assert.Equal(1, one);
         Assert.Equal(2, two);
         Assert.Equal(3, three);
@@ -81,7 +81,7 @@ public sealed class ListDeconstructorsTest {
 
     [Fact]
     public void DeconstructTest9() {
-        var (one, two, three, four, five, six, seven, eight, nine) = array;
+        var (one, two, three, four, five, six, seven, eight, nine) = Array;
         Assert.Equal(1, one);
         Assert.Equal(2, two);
         Assert.Equal(3, three);
@@ -95,7 +95,7 @@ public sealed class ListDeconstructorsTest {
 
     [Fact]
     public void DeconstructTest10() {
-        var (one, two, three, four, five, six, seven, eight, nine, ten) = array;
+        var (one, two, three, four, five, six, seven, eight, nine, ten) = Array;
         Assert.Equal(1, one);
         Assert.Equal(2, two);
         Assert.Equal(3, three);
@@ -110,7 +110,7 @@ public sealed class ListDeconstructorsTest {
 
     [Fact]
     public void DeconstructTest11() {
-        var (one, two, three, four, five, six, seven, eight, nine, ten, eleven) = array;
+        var (one, two, three, four, five, six, seven, eight, nine, ten, eleven) = Array;
         Assert.Equal(1, one);
         Assert.Equal(2, two);
         Assert.Equal(3, three);
@@ -126,7 +126,7 @@ public sealed class ListDeconstructorsTest {
 
     [Fact]
     public void DeconstructTest12() {
-        var (one, two, three, four, five, six, seven, eight, nine, ten, eleven, twelve) = array;
+        var (one, two, three, four, five, six, seven, eight, nine, ten, eleven, twelve) = Array;
         Assert.Equal(1, one);
         Assert.Equal(2, two);
         Assert.Equal(3, three);
@@ -143,7 +143,7 @@ public sealed class ListDeconstructorsTest {
 
     [Fact]
     public void DeconstructTest13() {
-        var (one, two, three, four, five, six, seven, eight, nine, ten, eleven, twelve, thirteen) = array;
+        var (one, two, three, four, five, six, seven, eight, nine, ten, eleven, twelve, thirteen) = Array;
         Assert.Equal(1, one);
         Assert.Equal(2, two);
         Assert.Equal(3, three);
@@ -161,7 +161,7 @@ public sealed class ListDeconstructorsTest {
 
     [Fact]
     public void DeconstructTest14() {
-        var (one, two, three, four, five, six, seven, eight, nine, ten, eleven, twelve, thirteen, fourteen) = array;
+        var (one, two, three, four, five, six, seven, eight, nine, ten, eleven, twelve, thirteen, fourteen) = Array;
         Assert.Equal(1, one);
         Assert.Equal(2, two);
         Assert.Equal(3, three);
@@ -180,7 +180,7 @@ public sealed class ListDeconstructorsTest {
 
     [Fact]
     public void DeconstructTest15() {
-        var (one, two, three, four, five, six, seven, eight, nine, ten, eleven, twelve, thirteen, fourteen, fifteen) = array;
+        var (one, two, three, four, five, six, seven, eight, nine, ten, eleven, twelve, thirteen, fourteen, fifteen) = Array;
         Assert.Equal(1, one);
         Assert.Equal(2, two);
         Assert.Equal(3, three);

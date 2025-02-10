@@ -2,9 +2,12 @@
 *.cs text eol=crlf
 *.xaml text eol=crlf
 *.resx text eol=crlf
+*.razor text eol=crlf
+*.cshtml text eol=crlf
 *.csproj text eol=crlf
 *.csproj.user text eol=crlf
 *.vb text eol=crlf
+*.vbhtml text eol=crlf
 *.vbproj text eol=crlf
 *.vbproj.user text eol=crlf
 *.c text eol=crlf
@@ -19,7 +22,10 @@
 *.vcproj text eol=crlf
 *.vcproj.filters text eol=crlf
 *.vcproj.user text eol=crlf
+*.shproj text eol=crlf
+*.projitems text eol=crlf
 *.props text eol=crlf
+Directory.Packages.props text=auto eol=crlf
 *.targets text eol=crlf
 *.pubxml text eol=crlf
 *.sln text eol=crlf
